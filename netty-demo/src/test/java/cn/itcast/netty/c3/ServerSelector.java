@@ -25,22 +25,39 @@ public class ServerSelector {
         SelectionKey sscKey = ssc.register(selector,0,null);
         //key 只关注accept事件
         sscKey.interestOps(SelectionKey.OP_ACCEPT);
-        log.debug("register key:{}",sscKey);
+        log.debug("注册的 key 值:{}",sscKey);
         ssc.bind(new InetSocketAddress(8888));
         while (true){
            //3、select 方法，没有事件发生时，线程阻塞，有事件时，线程才会恢复运行
             // select 在事件未处理时，它不会阻塞，事件发生后，要么取消要么处理，不能置之不理
             // 总结，没事件时阻塞，有事件，但是事件没处理，不会阻塞
+            // **** selector.select 将所有注册到selector中的通道的key保存，形成集合,如果又有新的连接，直接从此处开始执行代码
             selector.select();
            //4、处理事件，selectedKeys 内部包含了所有发生的事件的key
             Iterator<SelectionKey> iterator = selector.selectedKeys().iterator();
             while (iterator.hasNext()){
+                //集合中的key值
                 SelectionKey key = iterator.next();
-                log.debug("key:{}",key);
-//                ServerSocketChannel channel = (ServerSocketChannel) key.channel();
-//                SocketChannel accept = channel.accept();
-//                log.debug("{}",accept);
-                key.cancel();
+                //处理key时，要从selectKeys集合中删除，否则下次处理会有问题
+                iterator.remove();
+                log.debug("key值:{}",key);
+                //5、区分事件类型
+                if(key.isAcceptable()){
+                    ServerSocketChannel channel = (ServerSocketChannel) key.channel();
+                    SocketChannel accept = channel.accept();
+                    accept.configureBlocking(false);
+                    SelectionKey scKey = accept.register(selector, 0, null);
+                    scKey.interestOps(SelectionKey.OP_READ);
+                    log.debug("{}",accept);
+                } else if (key.isReadable()){
+                    SocketChannel channel = (SocketChannel) key.channel();
+                    ByteBuffer buffer = ByteBuffer.allocate(16);
+                    channel.read(buffer);
+                    buffer.flip();
+                    debugRead(buffer);
+                }
+
+               // key.cancel();
             }
         }
 
