@@ -1,0 +1,15 @@
+2023-12-19 10:06:20 [main] DEBUG c.itcast.netty.c1.TestByteBufferExam - 切换读之前的索引：6
+2023-12-19 10:06:20 [main] DEBUG c.itcast.netty.c1.TestByteBufferExam - 切换读之后的索引======：2
+2023-12-19 10:06:20 [main] DEBUG c.itcast.netty.c1.TestByteBufferExam - 切换读之前的索引：5
+2023-12-19 10:06:20 [main] DEBUG c.itcast.netty.c1.TestByteBufferExam - 切换读之后的索引======：0
+2023-12-19 10:08:11 [main] DEBUG c.itcast.netty.c1.TestByteBufferExam - 切换读之前的索引：6
+2023-12-19 10:08:11 [main] DEBUG c.itcast.netty.c1.TestByteBufferExam - 切换读之后的索引======：2
+2023-12-19 10:08:11 [main] DEBUG c.itcast.netty.c1.TestByteBufferExam - 切换读之前的索引：5
+2023-12-19 10:08:11 [main] DEBUG c.itcast.netty.c1.TestByteBufferExam - 切换读之后的索引======：0
+2023-12-19 14:40:47 [main] DEBUG cn.itcast.netty.c2.Server - connecting....
+2023-12-19 14:41:15 [main] DEBUG cn.itcast.netty.c2.Server - connecting....java.nio.channels.SocketChannel[connected local=/127.0.0.1:8080 remote=/127.0.0.1:65149]
+2023-12-19 14:41:15 [main] DEBUG cn.itcast.netty.c2.Server - connecting....java.nio.channels.SocketChannel[connected local=/127.0.0.1:8080 remote=/127.0.0.1:65149]
+2023-12-19 14:43:51 [main] DEBUG cn.itcast.netty.c2.Server - connecting....java.nio.channels.SocketChannel[connected local=/127.0.0.1:8080 remote=/127.0.0.1:65149]
+2023-12-19 14:43:51 [main] DEBUG cn.itcast.netty.c2.Server - connecting....
+2023-12-19 14:53:05 [main] DEBUG cn.itcast.netty.c2.Server - connecting....java.nio.channels.SocketChannel[connected local=/127.0.0.1:8080 remote=/127.0.0.1:49875]
+2023-12-19 14:53:05 [main] DEBUG cn.itcast.netty.c2.Server - connecting....java.nio.channels.SocketChannel[connected local=/127.0.0.1:8080 remote=/127.0.0.1:65149]
