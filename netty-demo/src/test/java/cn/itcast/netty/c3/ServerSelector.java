@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -49,12 +50,22 @@ public class ServerSelector {
                     SelectionKey scKey = accept.register(selector, 0, null);
                     scKey.interestOps(SelectionKey.OP_READ);
                     log.debug("{}",accept);
-                } else if (key.isReadable()){
-                    SocketChannel channel = (SocketChannel) key.channel();
-                    ByteBuffer buffer = ByteBuffer.allocate(16);
-                    channel.read(buffer);
-                    buffer.flip();
-                    debugRead(buffer);
+                } else if (key.isReadable()){           //如果是 read
+                    try {
+                        SocketChannel channel = (SocketChannel) key.channel();
+                        ByteBuffer buffer = ByteBuffer.allocate(4);
+                        int read = channel.read(buffer);//如果不做任何处理，此时如果连接断开，程序会在此处报错，并且抛出异常，服务被强迫停止
+                        if(read == -1 ){    //当客户端断开连接时channel.read = -1
+                            key.channel();
+                        } else {
+                            buffer.flip();
+                            //debugRead(buffer);
+                            System.out.println(Charset.defaultCharset().decode(buffer));
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();        //如果使用try catch抓住异常，程序会继续进行，服务不会被强迫停止
+                        key.cancel();  // 因为客户端断开了，因此需要将key取消 （从 selector 的 keys 集合中真正的删除）
+                    }
                 }
 
                // key.cancel();
