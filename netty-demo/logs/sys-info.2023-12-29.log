@@ -1,0 +1,17 @@
+2023-12-29 10:55:19 [main] DEBUG cn.itcast.netty.c3.ServerSelector - 注册的 key 值:sun.nio.ch.SelectionKeyImpl@649d209a
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 读到的字节数：10
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：1
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：2
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：3
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：4
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：5
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：6
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：7
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：8
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：9
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：0
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 读到的字节数：3
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：a
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：b
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 实际字节：c
+2023-12-29 15:40:42 [main] DEBUG cn.itcast.netty.c1.TestByteBuffer - 读到的字节数：-1
