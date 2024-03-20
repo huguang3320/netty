@@ -90,4 +90,12 @@
 
     <logger name="cn.itcast.netty" level="DEBUG">
     </logger>
+
+    <logger name="cn.itcast.nettystart" level="DEBUG">
+    </logger>
+
+    <logger name="io.netty.handler.logging.LoggingHandler" level="DEBUG">
+    </logger>
+
+
 </configuration> 

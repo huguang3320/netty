@@ -22,7 +22,7 @@ public class TestByteBufferExam {
     public static void main(String[] args) {
 
         ByteBuffer source = ByteBuffer.allocate(32);
-        // a、b、\n 都是字符，使用getBytes转成字节，可以展示成二进制、十进制、十六进制，本案例展示的是十六进制，也就是 a的十六进制是61，b是62，\n是0a
+        // a、b、\n 都是字符，使用getBytes转成字节，可以展示成二进制、十进制、十六进制，本案例展示的是十六进制，也就是 a的十六进制是61，b是62，\n是0a，每个字节对应的字符可以在ASCII码中查看
         source.put("ab\nde\nfg".getBytes());
         //使用split方法对这条数据进行拆分
         split(source);
