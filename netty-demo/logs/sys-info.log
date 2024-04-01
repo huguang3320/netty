@@ -1,356 +1,5 @@
-2024-03-20 08:42:51 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
-2024-03-20 08:42:51 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
-2024-03-20 08:42:51 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 08:42:51 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
-2024-03-20 08:42:51 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 08:42:51 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
-2024-03-20 08:48:41 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
-2024-03-20 08:48:41 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
-2024-03-20 08:48:41 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 08:48:41 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
-2024-03-20 08:48:41 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 08:48:41 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
-2024-03-20 08:49:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
-2024-03-20 08:49:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
-2024-03-20 08:49:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 08:49:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
-2024-03-20 08:49:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 08:49:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
-2024-03-20 09:06:52 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
-2024-03-20 09:06:52 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
-2024-03-20 09:06:52 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 09:06:52 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
-2024-03-20 09:06:52 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
-2024-03-20 09:07:14 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
-2024-03-20 09:07:14 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
-2024-03-20 09:07:14 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 09:07:14 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
-2024-03-20 09:07:14 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ: 100B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72                                     |/Str            |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 09:07:14 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
-2024-03-20 09:08:11 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
-2024-03-20 09:08:11 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
-2024-03-20 09:08:11 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 09:08:11 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
-2024-03-20 09:08:12 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
-2024-03-20 09:10:59 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
-2024-03-20 09:10:59 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
-2024-03-20 09:10:59 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 09:11:00 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
-2024-03-20 09:11:00 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
-2024-03-20 09:11:00 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-20 09:11:00 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
-2024-03-22 10:59:03 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdee321f3] REGISTERED
-2024-03-22 10:59:03 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdee321f3] CONNECT: localhost/127.0.0.1:8080
-2024-03-22 10:59:03 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdee321f3, L:/127.0.0.1:65024 - R:localhost/127.0.0.1:8080] ACTIVE
-2024-03-22 11:00:48 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530] REGISTERED
-2024-03-22 11:00:48 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530] CONNECT: localhost/127.0.0.1:8080
-2024-03-22 11:00:48 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530, L:/127.0.0.1:65395 - R:localhost/127.0.0.1:8080] ACTIVE
-2024-03-22 11:00:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530, L:/127.0.0.1:65395 - R:localhost/127.0.0.1:8080] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-22 11:00:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530, L:/127.0.0.1:65395 - R:localhost/127.0.0.1:8080] FLUSH
-2024-03-22 11:00:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530, L:/127.0.0.1:65395 - R:localhost/127.0.0.1:8080] EXCEPTION: io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 541221236 - discarded
-io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 541221236 - discarded
-	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.fail(LengthFieldBasedFrameDecoder.java:503)
-	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.failIfNecessary(LengthFieldBasedFrameDecoder.java:489)
-	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.exceededFrameLength(LengthFieldBasedFrameDecoder.java:376)
-	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:419)
-	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:332)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:508)
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:447)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2024-03-22 11:00:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530, L:/127.0.0.1:65395 - R:localhost/127.0.0.1:8080] READ COMPLETE
-2024-03-22 11:00:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530, L:/127.0.0.1:65395 - R:localhost/127.0.0.1:8080] READ COMPLETE
-2024-03-22 11:00:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530, L:/127.0.0.1:65395 ! R:localhost/127.0.0.1:8080] INACTIVE
-2024-03-22 11:00:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xff6ce530, L:/127.0.0.1:65395 ! R:localhost/127.0.0.1:8080] UNREGISTERED
-2024-03-22 11:01:50 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x50d0d70a] REGISTERED
-2024-03-22 11:01:50 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x50d0d70a] CONNECT: localhost/127.0.0.1:9999
-2024-03-22 11:01:50 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x50d0d70a, L:/127.0.0.1:65522 - R:localhost/127.0.0.1:9999] ACTIVE
-2024-03-22 11:01:50 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x896b63d8, L:/127.0.0.1:9999 - R:/127.0.0.1:65522] REGISTERED
-2024-03-22 11:01:50 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x896b63d8, L:/127.0.0.1:9999 - R:/127.0.0.1:65522] ACTIVE
-2024-03-22 11:02:00 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x50d0d70a, L:/127.0.0.1:65522 - R:localhost/127.0.0.1:9999] WRITE: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-22 11:02:00 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x50d0d70a, L:/127.0.0.1:65522 - R:localhost/127.0.0.1:9999] FLUSH
-2024-03-22 11:02:00 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x896b63d8, L:/127.0.0.1:9999 - R:/127.0.0.1:65522] READ: 214B
-         +-------------------------------------------------+
-         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
-+--------+-------------------------------------------------+----------------+
-|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
-|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
-|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
-|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
-|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
-|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
-|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
-|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
-|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
-|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
-|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
-|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
-|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
-|000000d0| 61 6e 67 73 61 6e                               |angsan          |
-+--------+-------------------------------------------------+----------------+
-2024-03-22 11:02:00 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x896b63d8, L:/127.0.0.1:9999 - R:/127.0.0.1:65522] READ COMPLETE
-2024-03-22 11:04:02 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x896b63d8, L:/127.0.0.1:9999 - R:/127.0.0.1:65522] READ COMPLETE
-2024-03-22 11:04:02 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x896b63d8, L:/127.0.0.1:9999 - R:/127.0.0.1:65522] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2024-03-25 10:40:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x98b0f87d, L:/127.0.0.1:49486 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-03-25 10:40:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x98b0f87d, L:/127.0.0.1:49486 - R:localhost/127.0.0.1:9999] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -369,5 +18,1407 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2024-03-22 11:04:02 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x896b63d8, L:/127.0.0.1:9999 ! R:/127.0.0.1:65522] INACTIVE
-2024-03-22 11:04:02 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x896b63d8, L:/127.0.0.1:9999 ! R:/127.0.0.1:65522] UNREGISTERED
+2024-03-25 10:40:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x98b0f87d, L:/127.0.0.1:49486 ! R:localhost/127.0.0.1:9999] INACTIVE
+2024-03-25 10:40:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x98b0f87d, L:/127.0.0.1:49486 ! R:localhost/127.0.0.1:9999] UNREGISTERED
+2024-03-25 10:40:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a] REGISTERED
+2024-03-25 10:40:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a] CONNECT: localhost/127.0.0.1:9999
+2024-03-25 10:40:58 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a, L:/127.0.0.1:59177 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-03-25 10:40:58 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 - R:/127.0.0.1:59177] REGISTERED
+2024-03-25 10:40:58 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 - R:/127.0.0.1:59177] ACTIVE
+2024-03-25 10:41:04 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a, L:/127.0.0.1:59177 - R:localhost/127.0.0.1:9999] WRITE: 219B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 cb |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 08 61 6c 6b 73 64 6a 6c 61 |.....t..alksdjla|
+|000000d0| 74 00 08 7a 68 61 6e 67 73 61 6e                |t..zhangsan     |
++--------+-------------------------------------------------+----------------+
+2024-03-25 10:41:04 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a, L:/127.0.0.1:59177 - R:localhost/127.0.0.1:9999] FLUSH
+2024-03-25 10:41:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 - R:/127.0.0.1:59177] READ: 219B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 cb |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 08 61 6c 6b 73 64 6a 6c 61 |.....t..alksdjla|
+|000000d0| 74 00 08 7a 68 61 6e 67 73 61 6e                |t..zhangsan     |
++--------+-------------------------------------------------+----------------+
+2024-03-25 10:41:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 - R:/127.0.0.1:59177] WRITE: 274B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 02 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 00 74 00 18 e7 94 a8 e6 88 b7 |.......t........|
+|00000100| e5 90 8d e3 80 81 e5 af 86 e7 a0 81 e9 94 99 e8 |................|
+|00000110| af af                                           |..              |
++--------+-------------------------------------------------+----------------+
+2024-03-25 10:41:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 - R:/127.0.0.1:59177] FLUSH
+2024-03-25 10:41:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 - R:/127.0.0.1:59177] READ COMPLETE
+2024-03-25 10:41:04 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a, L:/127.0.0.1:59177 - R:localhost/127.0.0.1:9999] READ: 274B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 02 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 00 74 00 18 e7 94 a8 e6 88 b7 |.......t........|
+|00000100| e5 90 8d e3 80 81 e5 af 86 e7 a0 81 e9 94 99 e8 |................|
+|00000110| af af                                           |..              |
++--------+-------------------------------------------------+----------------+
+2024-03-25 10:41:04 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a, L:/127.0.0.1:59177 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-03-25 10:41:04 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a, L:/127.0.0.1:59177 - R:localhost/127.0.0.1:9999] CLOSE
+2024-03-25 10:41:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 - R:/127.0.0.1:59177] READ COMPLETE
+2024-03-25 10:41:04 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a, L:/127.0.0.1:59177 ! R:localhost/127.0.0.1:9999] INACTIVE
+2024-03-25 10:41:04 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1616188a, L:/127.0.0.1:59177 ! R:localhost/127.0.0.1:9999] UNREGISTERED
+2024-03-25 10:41:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 ! R:/127.0.0.1:59177] INACTIVE
+2024-03-25 10:41:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x2d032661, L:/127.0.0.1:9999 ! R:/127.0.0.1:59177] UNREGISTERED
+2024-03-25 10:41:33 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 - R:/127.0.0.1:63412] REGISTERED
+2024-03-25 10:41:33 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 - R:/127.0.0.1:63412] ACTIVE
+2024-03-25 10:41:39 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 - R:/127.0.0.1:63412] READ: 219B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 cb |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 08 61 6c 61 6b 64 73 6a 6c |.....t..alakdsjl|
+|000000d0| 74 00 08 7a 68 61 6e 67 73 61 6e                |t..zhangsan     |
++--------+-------------------------------------------------+----------------+
+2024-03-25 10:41:39 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 - R:/127.0.0.1:63412] WRITE: 274B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 02 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 00 74 00 18 e7 94 a8 e6 88 b7 |.......t........|
+|00000100| e5 90 8d e3 80 81 e5 af 86 e7 a0 81 e9 94 99 e8 |................|
+|00000110| af af                                           |..              |
++--------+-------------------------------------------------+----------------+
+2024-03-25 10:41:39 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 - R:/127.0.0.1:63412] FLUSH
+2024-03-25 10:41:39 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 - R:/127.0.0.1:63412] READ COMPLETE
+2024-03-25 10:41:39 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 - R:/127.0.0.1:63412] READ COMPLETE
+2024-03-25 10:41:39 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 ! R:/127.0.0.1:63412] INACTIVE
+2024-03-25 10:41:39 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4935ac00, L:/127.0.0.1:9999 ! R:/127.0.0.1:63412] UNREGISTERED
+2024-03-25 10:41:51 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 - R:/127.0.0.1:63507] REGISTERED
+2024-03-25 10:41:51 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 - R:/127.0.0.1:63507] ACTIVE
+2024-03-25 10:42:02 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 - R:/127.0.0.1:63507] READ: 214B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
+|000000d0| 61 6e 67 73 61 6e                               |angsan          |
++--------+-------------------------------------------------+----------------+
+2024-03-25 10:42:02 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 - R:/127.0.0.1:63507] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-25 10:42:02 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 - R:/127.0.0.1:63507] FLUSH
+2024-03-25 10:42:02 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 - R:/127.0.0.1:63507] READ COMPLETE
+2024-03-25 10:42:08 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 - R:/127.0.0.1:63507] READ COMPLETE
+2024-03-25 10:42:08 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 - R:/127.0.0.1:63507] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-25 10:42:08 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 ! R:/127.0.0.1:63507] INACTIVE
+2024-03-25 10:42:08 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4b1beb50, L:/127.0.0.1:9999 ! R:/127.0.0.1:63507] UNREGISTERED
+2024-03-27 09:56:52 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] REGISTERED
+2024-03-27 09:56:52 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] ACTIVE
+2024-03-27 09:56:56 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] REGISTERED
+2024-03-27 09:56:56 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] ACTIVE
+2024-03-27 09:57:06 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] READ: 214B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
+|000000d0| 61 6e 67 73 61 6e                               |angsan          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 09:57:06 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 09:57:06 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] FLUSH
+2024-03-27 09:57:06 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] READ COMPLETE
+2024-03-27 09:57:11 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] READ: 210B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c2 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 04 6c 69 |.....t..123t..li|
+|000000d0| 73 69                                           |si              |
++--------+-------------------------------------------------+----------------+
+2024-03-27 09:57:11 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 09:57:11 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] FLUSH
+2024-03-27 09:57:11 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] READ COMPLETE
+2024-03-27 09:58:43 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] READ: 231B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 02 00 00 00 00 ff 00 00 00 d7 |................|
+|00000010| ac ed 00 05 73 72 00 24 63 6e 2e 69 74 63 61 73 |....sr.$cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 43 68 61 74 52 65 |t.message.ChatRe|
+|00000030| 71 75 65 73 74 4d 65 73 73 61 67 65 3a fb 96 66 |questMessage:..f|
+|00000040| fd cb dd 20 02 00 03 4c 00 07 63 6f 6e 74 65 6e |... ...L..conten|
+|00000050| 74 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 |tt..Ljava/lang/S|
+|00000060| 74 72 69 6e 67 3b 4c 00 04 66 72 6f 6d 71 00 7e |tring;L..fromq.~|
+|00000070| 00 01 4c 00 02 74 6f 71 00 7e 00 01 78 72 00 19 |..L..toq.~..xr..|
+|00000080| 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 |cn.itcast.messag|
+|00000090| 65 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 |e.Message=.....G|
+|000000a0| cb 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 |....I..messageTy|
+|000000b0| 70 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 |peI..sequenceIdx|
+|000000c0| 70 00 00 00 00 00 00 00 00 74 00 09 e4 bd a0 e5 |p........t......|
+|000000d0| a5 bd e5 91 80 74 00 08 7a 68 61 6e 67 73 61 6e |.....t..zhangsan|
+|000000e0| 74 00 04 6c 69 73 69                            |t..lisi         |
++--------+-------------------------------------------------+----------------+
+2024-03-27 09:58:43 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] READ COMPLETE
+2024-03-27 09:58:43 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] WRITE: 297B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 03 00 00 00 00 ff 00 00 01 19 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 43 68 61 74 52 65 |t.message.ChatRe|
+|00000030| 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 e5 41 69 |sponseMessage.Ai|
+|00000040| f9 e3 97 52 9f 02 00 02 4c 00 07 63 6f 6e 74 65 |...R....L..conte|
+|00000050| 6e 74 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f |ntt..Ljava/lang/|
+|00000060| 53 74 72 69 6e 67 3b 4c 00 04 66 72 6f 6d 71 00 |String;L..fromq.|
+|00000070| 7e 00 01 78 72 00 29 63 6e 2e 69 74 63 61 73 74 |~..xr.)cn.itcast|
+|00000080| 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 61 63 |.message.Abstrac|
+|00000090| 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 |tResponseMessage|
+|000000a0| a4 7a 6f 68 f5 f9 f6 05 02 00 02 5a 00 07 73 75 |.zoh.......Z..su|
+|000000b0| 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e 71 00 |ccessL..reasonq.|
+|000000c0| 7e 00 01 78 72 00 19 63 6e 2e 69 74 63 61 73 74 |~..xr..cn.itcast|
+|000000d0| 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 65 |.message.Message|
+|000000e0| 3d dd 19 a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 |=.....G....I..me|
+|000000f0| 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 75 |ssageTypeI..sequ|
+|00000100| 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 00 |enceIdxp........|
+|00000110| 00 70 74 00 09 e4 bd a0 e5 a5 bd e5 91 80 74 00 |.pt...........t.|
+|00000120| 08 7a 68 61 6e 67 73 61 6e                      |.zhangsan       |
++--------+-------------------------------------------------+----------------+
+2024-03-27 09:58:43 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] FLUSH
+2024-03-27 09:59:29 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] READ: 229B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 02 00 00 00 00 ff 00 00 00 d5 |................|
+|00000010| ac ed 00 05 73 72 00 24 63 6e 2e 69 74 63 61 73 |....sr.$cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 43 68 61 74 52 65 |t.message.ChatRe|
+|00000030| 71 75 65 73 74 4d 65 73 73 61 67 65 3a fb 96 66 |questMessage:..f|
+|00000040| fd cb dd 20 02 00 03 4c 00 07 63 6f 6e 74 65 6e |... ...L..conten|
+|00000050| 74 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 |tt..Ljava/lang/S|
+|00000060| 74 72 69 6e 67 3b 4c 00 04 66 72 6f 6d 71 00 7e |tring;L..fromq.~|
+|00000070| 00 01 4c 00 02 74 6f 71 00 7e 00 01 78 72 00 19 |..L..toq.~..xr..|
+|00000080| 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 |cn.itcast.messag|
+|00000090| 65 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 |e.Message=.....G|
+|000000a0| cb 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 |....I..messageTy|
+|000000b0| 70 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 |peI..sequenceIdx|
+|000000c0| 70 00 00 00 00 00 00 00 00 74 00 09 e6 88 91 e5 |p........t......|
+|000000d0| be 88 e5 a5 bd 74 00 04 6c 69 73 69 74 00 06 e5 |.....t..lisit...|
+|000000e0| bc a0 e4 b8 89                                  |.....           |
++--------+-------------------------------------------------+----------------+
+2024-03-27 09:59:29 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] WRITE: 293B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 03 00 00 00 00 ff 00 00 01 15 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 43 68 61 74 52 65 |t.message.ChatRe|
+|00000030| 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 e5 41 69 |sponseMessage.Ai|
+|00000040| f9 e3 97 52 9f 02 00 02 4c 00 07 63 6f 6e 74 65 |...R....L..conte|
+|00000050| 6e 74 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f |ntt..Ljava/lang/|
+|00000060| 53 74 72 69 6e 67 3b 4c 00 04 66 72 6f 6d 71 00 |String;L..fromq.|
+|00000070| 7e 00 01 78 72 00 29 63 6e 2e 69 74 63 61 73 74 |~..xr.)cn.itcast|
+|00000080| 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 61 63 |.message.Abstrac|
+|00000090| 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 |tResponseMessage|
+|000000a0| a4 7a 6f 68 f5 f9 f6 05 02 00 02 5a 00 07 73 75 |.zoh.......Z..su|
+|000000b0| 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e 71 00 |ccessL..reasonq.|
+|000000c0| 7e 00 01 78 72 00 19 63 6e 2e 69 74 63 61 73 74 |~..xr..cn.itcast|
+|000000d0| 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 65 |.message.Message|
+|000000e0| 3d dd 19 a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 |=.....G....I..me|
+|000000f0| 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 75 |ssageTypeI..sequ|
+|00000100| 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 00 |enceIdxp........|
+|00000110| 00 74 00 0f e5 af b9 e6 96 b9 e4 b8 8d e5 9c a8 |.t..............|
+|00000120| e7 ba bf 70 70                                  |...pp           |
++--------+-------------------------------------------------+----------------+
+2024-03-27 09:59:29 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] FLUSH
+2024-03-27 09:59:29 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] READ COMPLETE
+2024-03-27 10:00:04 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] READ: 240B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 02 00 00 00 00 ff 00 00 00 e0 |................|
+|00000010| ac ed 00 05 73 72 00 24 63 6e 2e 69 74 63 61 73 |....sr.$cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 43 68 61 74 52 65 |t.message.ChatRe|
+|00000030| 71 75 65 73 74 4d 65 73 73 61 67 65 3a fb 96 66 |questMessage:..f|
+|00000040| fd cb dd 20 02 00 03 4c 00 07 63 6f 6e 74 65 6e |... ...L..conten|
+|00000050| 74 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 |tt..Ljava/lang/S|
+|00000060| 74 72 69 6e 67 3b 4c 00 04 66 72 6f 6d 71 00 7e |tring;L..fromq.~|
+|00000070| 00 01 4c 00 02 74 6f 71 00 7e 00 01 78 72 00 19 |..L..toq.~..xr..|
+|00000080| 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 |cn.itcast.messag|
+|00000090| 65 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 |e.Message=.....G|
+|000000a0| cb 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 |....I..messageTy|
+|000000b0| 70 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 |peI..sequenceIdx|
+|000000c0| 70 00 00 00 00 00 00 00 00 74 00 12 e6 88 91 e5 |p........t......|
+|000000d0| be 88 e5 a5 bd e5 98 bf e5 98 bf e5 98 bf 74 00 |..............t.|
+|000000e0| 04 6c 69 73 69 74 00 08 7a 68 61 6e 67 73 61 6e |.lisit..zhangsan|
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:00:04 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] READ COMPLETE
+2024-03-27 10:00:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] WRITE: 302B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 03 00 00 00 00 ff 00 00 01 1e |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 43 68 61 74 52 65 |t.message.ChatRe|
+|00000030| 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 e5 41 69 |sponseMessage.Ai|
+|00000040| f9 e3 97 52 9f 02 00 02 4c 00 07 63 6f 6e 74 65 |...R....L..conte|
+|00000050| 6e 74 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f |ntt..Ljava/lang/|
+|00000060| 53 74 72 69 6e 67 3b 4c 00 04 66 72 6f 6d 71 00 |String;L..fromq.|
+|00000070| 7e 00 01 78 72 00 29 63 6e 2e 69 74 63 61 73 74 |~..xr.)cn.itcast|
+|00000080| 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 61 63 |.message.Abstrac|
+|00000090| 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 |tResponseMessage|
+|000000a0| a4 7a 6f 68 f5 f9 f6 05 02 00 02 5a 00 07 73 75 |.zoh.......Z..su|
+|000000b0| 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e 71 00 |ccessL..reasonq.|
+|000000c0| 7e 00 01 78 72 00 19 63 6e 2e 69 74 63 61 73 74 |~..xr..cn.itcast|
+|000000d0| 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 65 |.message.Message|
+|000000e0| 3d dd 19 a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 |=.....G....I..me|
+|000000f0| 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 75 |ssageTypeI..sequ|
+|00000100| 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 00 |enceIdxp........|
+|00000110| 00 70 74 00 12 e6 88 91 e5 be 88 e5 a5 bd e5 98 |.pt.............|
+|00000120| bf e5 98 bf e5 98 bf 74 00 04 6c 69 73 69       |.......t..lisi  |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:00:04 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] FLUSH
+2024-03-27 10:30:24 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] READ COMPLETE
+2024-03-27 10:30:24 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 - R:/127.0.0.1:58699] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-27 10:30:24 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 ! R:/127.0.0.1:58699] INACTIVE
+2024-03-27 10:30:24 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0af91db4, L:/127.0.0.1:9999 ! R:/127.0.0.1:58699] UNREGISTERED
+2024-03-27 10:30:26 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] READ COMPLETE
+2024-03-27 10:30:26 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 - R:/127.0.0.1:58761] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-27 10:30:26 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 ! R:/127.0.0.1:58761] INACTIVE
+2024-03-27 10:30:26 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d1dc3e, L:/127.0.0.1:9999 ! R:/127.0.0.1:58761] UNREGISTERED
+2024-03-27 10:30:58 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] REGISTERED
+2024-03-27 10:30:58 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] ACTIVE
+2024-03-27 10:31:00 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 - R:/127.0.0.1:52758] REGISTERED
+2024-03-27 10:31:00 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 - R:/127.0.0.1:52758] ACTIVE
+2024-03-27 10:31:03 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 - R:/127.0.0.1:52839] REGISTERED
+2024-03-27 10:31:03 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 - R:/127.0.0.1:52839] ACTIVE
+2024-03-27 10:31:09 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] READ: 214B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
+|000000d0| 61 6e 67 73 61 6e                               |angsan          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:31:09 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:31:09 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] FLUSH
+2024-03-27 10:31:09 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] READ COMPLETE
+2024-03-27 10:31:12 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 - R:/127.0.0.1:52758] READ: 210B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c2 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 04 6c 69 |.....t..123t..li|
+|000000d0| 73 69                                           |si              |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:31:12 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 - R:/127.0.0.1:52758] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:31:12 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 - R:/127.0.0.1:52758] FLUSH
+2024-03-27 10:31:12 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 - R:/127.0.0.1:52758] READ COMPLETE
+2024-03-27 10:31:17 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 - R:/127.0.0.1:52839] READ: 212B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c4 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 06 77 61 |.....t..123t..wa|
+|000000d0| 6e 67 77 75                                     |ngwu            |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:31:17 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 - R:/127.0.0.1:52839] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:31:17 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 - R:/127.0.0.1:52839] FLUSH
+2024-03-27 10:31:17 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 - R:/127.0.0.1:52839] READ COMPLETE
+2024-03-27 10:31:51 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] READ: 301B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 04 00 00 00 00 ff 00 00 01 1d |................|
+|00000010| ac ed 00 05 73 72 00 2b 63 6e 2e 69 74 63 61 73 |....sr.+cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 47 72 6f 75 70 43 |t.message.GroupC|
+|00000030| 72 65 61 74 65 52 65 71 75 65 73 74 4d 65 73 73 |reateRequestMess|
+|00000040| 61 67 65 5d 49 02 90 4f ee ca 97 02 00 02 4c 00 |age]I..O......L.|
+|00000050| 09 67 72 6f 75 70 4e 61 6d 65 74 00 12 4c 6a 61 |.groupNamet..Lja|
+|00000060| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c |va/lang/String;L|
+|00000070| 00 07 6d 65 6d 62 65 72 73 74 00 0f 4c 6a 61 76 |..memberst..Ljav|
+|00000080| 61 2f 75 74 69 6c 2f 53 65 74 3b 78 72 00 19 63 |a/util/Set;xr..c|
+|00000090| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|000000a0| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|000000b0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000c0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|000000d0| 00 00 00 00 00 00 00 00 74 00 0f e6 bf 80 e6 83 |........t.......|
+|000000e0| 85 e8 81 8a e5 a4 a9 e5 ae a4 73 72 00 11 6a 61 |..........sr..ja|
+|000000f0| 76 61 2e 75 74 69 6c 2e 48 61 73 68 53 65 74 ba |va.util.HashSet.|
+|00000100| 44 85 95 96 b8 b7 34 03 00 00 78 70 77 0c 00 00 |D.....4...xpw...|
+|00000110| 00 10 3f 40 00 00 00 00 00 02 74 00 04 6c 69 73 |..?@......t..lis|
+|00000120| 69 74 00 08 7a 68 61 6e 67 73 61 6e 78          |it..zhangsanx   |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:31:51 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] READ COMPLETE
+2024-03-27 10:32:26 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] READ: 310B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 04 00 00 00 00 ff 00 00 01 26 |...............&|
+|00000010| ac ed 00 05 73 72 00 2b 63 6e 2e 69 74 63 61 73 |....sr.+cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 47 72 6f 75 70 43 |t.message.GroupC|
+|00000030| 72 65 61 74 65 52 65 71 75 65 73 74 4d 65 73 73 |reateRequestMess|
+|00000040| 61 67 65 5d 49 02 90 4f ee ca 97 02 00 02 4c 00 |age]I..O......L.|
+|00000050| 09 67 72 6f 75 70 4e 61 6d 65 74 00 12 4c 6a 61 |.groupNamet..Lja|
+|00000060| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c |va/lang/String;L|
+|00000070| 00 07 6d 65 6d 62 65 72 73 74 00 0f 4c 6a 61 76 |..memberst..Ljav|
+|00000080| 61 2f 75 74 69 6c 2f 53 65 74 3b 78 72 00 19 63 |a/util/Set;xr..c|
+|00000090| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|000000a0| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|000000b0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000c0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|000000d0| 00 00 00 00 00 00 00 00 74 00 0f e6 bf 80 e6 83 |........t.......|
+|000000e0| 85 e8 81 8a e5 a4 a9 e5 ae a4 73 72 00 11 6a 61 |..........sr..ja|
+|000000f0| 76 61 2e 75 74 69 6c 2e 48 61 73 68 53 65 74 ba |va.util.HashSet.|
+|00000100| 44 85 95 96 b8 b7 34 03 00 00 78 70 77 0c 00 00 |D.....4...xpw...|
+|00000110| 00 10 3f 40 00 00 00 00 00 03 74 00 04 6c 69 73 |..?@......t..lis|
+|00000120| 69 74 00 08 7a 68 61 6e 67 73 61 6e 74 00 06 77 |it..zhangsant..w|
+|00000130| 61 6e 67 77 75 78                               |angwux          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:32:26 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] READ COMPLETE
+2024-03-27 10:34:20 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] READ COMPLETE
+2024-03-27 10:34:20 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 - R:/127.0.0.1:52694] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-27 10:34:20 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 ! R:/127.0.0.1:52694] INACTIVE
+2024-03-27 10:34:20 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe32025b9, L:/127.0.0.1:9999 ! R:/127.0.0.1:52694] UNREGISTERED
+2024-03-27 10:34:22 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 - R:/127.0.0.1:52758] READ COMPLETE
+2024-03-27 10:34:22 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 - R:/127.0.0.1:52758] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-27 10:34:22 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 ! R:/127.0.0.1:52758] INACTIVE
+2024-03-27 10:34:22 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x024822fe, L:/127.0.0.1:9999 ! R:/127.0.0.1:52758] UNREGISTERED
+2024-03-27 10:34:24 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 - R:/127.0.0.1:52839] READ COMPLETE
+2024-03-27 10:34:24 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 - R:/127.0.0.1:52839] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-27 10:34:24 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 ! R:/127.0.0.1:52839] INACTIVE
+2024-03-27 10:34:24 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdac5bb81, L:/127.0.0.1:9999 ! R:/127.0.0.1:52839] UNREGISTERED
+2024-03-27 10:34:49 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] REGISTERED
+2024-03-27 10:34:49 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] ACTIVE
+2024-03-27 10:34:51 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 - R:/127.0.0.1:55756] REGISTERED
+2024-03-27 10:34:51 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 - R:/127.0.0.1:55756] ACTIVE
+2024-03-27 10:34:54 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 - R:/127.0.0.1:55812] REGISTERED
+2024-03-27 10:34:54 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 - R:/127.0.0.1:55812] ACTIVE
+2024-03-27 10:34:59 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] READ: 214B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
+|000000d0| 61 6e 67 73 61 6e                               |angsan          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:34:59 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:34:59 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] FLUSH
+2024-03-27 10:34:59 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] READ COMPLETE
+2024-03-27 10:35:03 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 - R:/127.0.0.1:55756] READ: 210B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c2 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 04 6c 69 |.....t..123t..li|
+|000000d0| 73 69                                           |si              |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:35:03 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 - R:/127.0.0.1:55756] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:35:03 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 - R:/127.0.0.1:55756] FLUSH
+2024-03-27 10:35:03 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 - R:/127.0.0.1:55756] READ COMPLETE
+2024-03-27 10:35:07 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 - R:/127.0.0.1:55812] READ: 212B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c4 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 06 77 61 |.....t..123t..wa|
+|000000d0| 6e 67 77 75                                     |ngwu            |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:35:07 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 - R:/127.0.0.1:55812] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:35:07 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 - R:/127.0.0.1:55812] FLUSH
+2024-03-27 10:35:07 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 - R:/127.0.0.1:55812] READ COMPLETE
+2024-03-27 10:35:23 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] READ: 307B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 04 00 00 00 00 ff 00 00 01 23 |...............#|
+|00000010| ac ed 00 05 73 72 00 2b 63 6e 2e 69 74 63 61 73 |....sr.+cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 47 72 6f 75 70 43 |t.message.GroupC|
+|00000030| 72 65 61 74 65 52 65 71 75 65 73 74 4d 65 73 73 |reateRequestMess|
+|00000040| 61 67 65 5d 49 02 90 4f ee ca 97 02 00 02 4c 00 |age]I..O......L.|
+|00000050| 09 67 72 6f 75 70 4e 61 6d 65 74 00 12 4c 6a 61 |.groupNamet..Lja|
+|00000060| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c |va/lang/String;L|
+|00000070| 00 07 6d 65 6d 62 65 72 73 74 00 0f 4c 6a 61 76 |..memberst..Ljav|
+|00000080| 61 2f 75 74 69 6c 2f 53 65 74 3b 78 72 00 19 63 |a/util/Set;xr..c|
+|00000090| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|000000a0| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|000000b0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000c0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|000000d0| 00 00 00 00 00 00 00 00 74 00 0c e6 bf 80 e6 83 |........t.......|
+|000000e0| 85 e8 81 8a e5 a4 a9 73 72 00 11 6a 61 76 61 2e |.......sr..java.|
+|000000f0| 75 74 69 6c 2e 48 61 73 68 53 65 74 ba 44 85 95 |util.HashSet.D..|
+|00000100| 96 b8 b7 34 03 00 00 78 70 77 0c 00 00 00 10 3f |...4...xpw.....?|
+|00000110| 40 00 00 00 00 00 03 74 00 04 6c 69 73 69 74 00 |@......t..lisit.|
+|00000120| 08 7a 68 61 6e 67 73 61 6e 74 00 06 77 61 6e 67 |.zhangsant..wang|
+|00000130| 77 75 78                                        |wux             |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:35:23 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] READ COMPLETE
+2024-03-27 10:37:14 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] READ COMPLETE
+2024-03-27 10:37:14 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 - R:/127.0.0.1:55702] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-27 10:37:14 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 ! R:/127.0.0.1:55702] INACTIVE
+2024-03-27 10:37:14 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xcef8a4b4, L:/127.0.0.1:9999 ! R:/127.0.0.1:55702] UNREGISTERED
+2024-03-27 10:37:15 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 - R:/127.0.0.1:55756] READ COMPLETE
+2024-03-27 10:37:15 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 - R:/127.0.0.1:55756] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-27 10:37:15 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 ! R:/127.0.0.1:55756] INACTIVE
+2024-03-27 10:37:15 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xe28c8301, L:/127.0.0.1:9999 ! R:/127.0.0.1:55756] UNREGISTERED
+2024-03-27 10:37:17 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 - R:/127.0.0.1:55812] READ COMPLETE
+2024-03-27 10:37:17 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 - R:/127.0.0.1:55812] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-03-27 10:37:17 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 ! R:/127.0.0.1:55812] INACTIVE
+2024-03-27 10:37:17 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd2184525, L:/127.0.0.1:9999 ! R:/127.0.0.1:55812] UNREGISTERED
+2024-03-27 10:37:34 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] REGISTERED
+2024-03-27 10:37:34 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] ACTIVE
+2024-03-27 10:37:37 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60bf0f40, L:/127.0.0.1:9999 - R:/127.0.0.1:55858] REGISTERED
+2024-03-27 10:37:37 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60bf0f40, L:/127.0.0.1:9999 - R:/127.0.0.1:55858] ACTIVE
+2024-03-27 10:37:38 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x8d3b032f, L:/127.0.0.1:9999 - R:/127.0.0.1:55912] REGISTERED
+2024-03-27 10:37:38 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x8d3b032f, L:/127.0.0.1:9999 - R:/127.0.0.1:55912] ACTIVE
+2024-03-27 10:37:42 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] READ: 214B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
+|000000d0| 61 6e 67 73 61 6e                               |angsan          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:37:42 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:37:42 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] FLUSH
+2024-03-27 10:37:42 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] READ COMPLETE
+2024-03-27 10:37:47 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60bf0f40, L:/127.0.0.1:9999 - R:/127.0.0.1:55858] READ: 210B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c2 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 04 6c 69 |.....t..123t..li|
+|000000d0| 73 69                                           |si              |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:37:47 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60bf0f40, L:/127.0.0.1:9999 - R:/127.0.0.1:55858] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:37:47 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60bf0f40, L:/127.0.0.1:9999 - R:/127.0.0.1:55858] FLUSH
+2024-03-27 10:37:47 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60bf0f40, L:/127.0.0.1:9999 - R:/127.0.0.1:55858] READ COMPLETE
+2024-03-27 10:37:50 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x8d3b032f, L:/127.0.0.1:9999 - R:/127.0.0.1:55912] READ: 212B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c4 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 06 77 61 |.....t..123t..wa|
+|000000d0| 6e 67 77 75                                     |ngwu            |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:37:50 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x8d3b032f, L:/127.0.0.1:9999 - R:/127.0.0.1:55912] WRITE: 262B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 00 f6 |................|
+|00000010| ac ed 00 05 73 72 00 26 63 6e 2e 69 74 63 61 73 |....sr.&cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 73 70 6f 6e 73 65 4d 65 73 73 61 67 65 35 50 |esponseMessage5P|
+|00000040| 0f c0 8f da 56 b1 02 00 00 78 72 00 29 63 6e 2e |....V....xr.)cn.|
+|00000050| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 41 |itcast.message.A|
+|00000060| 62 73 74 72 61 63 74 52 65 73 70 6f 6e 73 65 4d |bstractResponseM|
+|00000070| 65 73 73 61 67 65 a4 7a 6f 68 f5 f9 f6 05 02 00 |essage.zoh......|
+|00000080| 02 5a 00 07 73 75 63 63 65 73 73 4c 00 06 72 65 |.Z..successL..re|
+|00000090| 61 73 6f 6e 74 00 12 4c 6a 61 76 61 2f 6c 61 6e |asont..Ljava/lan|
+|000000a0| 67 2f 53 74 72 69 6e 67 3b 78 72 00 19 63 6e 2e |g/String;xr..cn.|
+|000000b0| 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d |itcast.message.M|
+|000000c0| 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 |essage=.....G...|
+|000000d0| 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 |.I..messageTypeI|
+|000000e0| 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 |..sequenceIdxp..|
+|000000f0| 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 bd 95 |.......t........|
+|00000100| e6 88 90 e5 8a 9f                               |......          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:37:50 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x8d3b032f, L:/127.0.0.1:9999 - R:/127.0.0.1:55912] FLUSH
+2024-03-27 10:37:50 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x8d3b032f, L:/127.0.0.1:9999 - R:/127.0.0.1:55912] READ COMPLETE
+2024-03-27 10:38:03 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] READ: 310B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 04 00 00 00 00 ff 00 00 01 26 |...............&|
+|00000010| ac ed 00 05 73 72 00 2b 63 6e 2e 69 74 63 61 73 |....sr.+cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 47 72 6f 75 70 43 |t.message.GroupC|
+|00000030| 72 65 61 74 65 52 65 71 75 65 73 74 4d 65 73 73 |reateRequestMess|
+|00000040| 61 67 65 5d 49 02 90 4f ee ca 97 02 00 02 4c 00 |age]I..O......L.|
+|00000050| 09 67 72 6f 75 70 4e 61 6d 65 74 00 12 4c 6a 61 |.groupNamet..Lja|
+|00000060| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c |va/lang/String;L|
+|00000070| 00 07 6d 65 6d 62 65 72 73 74 00 0f 4c 6a 61 76 |..memberst..Ljav|
+|00000080| 61 2f 75 74 69 6c 2f 53 65 74 3b 78 72 00 19 63 |a/util/Set;xr..c|
+|00000090| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|000000a0| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|000000b0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000c0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|000000d0| 00 00 00 00 00 00 00 00 74 00 0f e6 bf 80 e6 83 |........t.......|
+|000000e0| 85 e8 81 8a e5 a4 a9 e5 ae a4 73 72 00 11 6a 61 |..........sr..ja|
+|000000f0| 76 61 2e 75 74 69 6c 2e 48 61 73 68 53 65 74 ba |va.util.HashSet.|
+|00000100| 44 85 95 96 b8 b7 34 03 00 00 78 70 77 0c 00 00 |D.....4...xpw...|
+|00000110| 00 10 3f 40 00 00 00 00 00 03 74 00 04 6c 69 73 |..?@......t..lis|
+|00000120| 69 74 00 08 7a 68 61 6e 67 73 61 6e 74 00 06 77 |it..zhangsant..w|
+|00000130| 61 6e 67 77 75 78                               |angwux          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:38:03 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] WRITE: 283B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 05 00 00 00 00 ff 00 00 01 0b |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6e 2e 69 74 63 61 73 |....sr.,cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 47 72 6f 75 70 43 |t.message.GroupC|
+|00000030| 72 65 61 74 65 52 65 73 70 6f 6e 73 65 4d 65 73 |reateResponseMes|
+|00000040| 73 61 67 65 11 9e b3 e5 55 cb 9b c0 02 00 00 78 |sage....U......x|
+|00000050| 72 00 29 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 |r.)cn.itcast.mes|
+|00000060| 73 61 67 65 2e 41 62 73 74 72 61 63 74 52 65 73 |sage.AbstractRes|
+|00000070| 70 6f 6e 73 65 4d 65 73 73 61 67 65 a4 7a 6f 68 |ponseMessage.zoh|
+|00000080| f5 f9 f6 05 02 00 02 5a 00 07 73 75 63 63 65 73 |.......Z..succes|
+|00000090| 73 4c 00 06 72 65 61 73 6f 6e 74 00 12 4c 6a 61 |sL..reasont..Lja|
+|000000a0| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 78 |va/lang/String;x|
+|000000b0| 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 |r..cn.itcast.mes|
+|000000c0| 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 a0 |sage.Message=...|
+|000000d0| bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 67 |..G....I..messag|
+|000000e0| 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 65 |eTypeI..sequence|
+|000000f0| 49 64 78 70 00 00 00 00 00 00 00 00 01 74 00 1b |Idxp.........t..|
+|00000100| e6 bf 80 e6 83 85 e8 81 8a e5 a4 a9 e5 ae a4 e5 |................|
+|00000110| 88 9b e5 bb ba e6 88 90 e5 8a 9f                |...........     |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:38:03 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] FLUSH
+2024-03-27 10:38:03 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] WRITE: 286B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 05 00 00 00 00 ff 00 00 01 0e |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6e 2e 69 74 63 61 73 |....sr.,cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 47 72 6f 75 70 43 |t.message.GroupC|
+|00000030| 72 65 61 74 65 52 65 73 70 6f 6e 73 65 4d 65 73 |reateResponseMes|
+|00000040| 73 61 67 65 11 9e b3 e5 55 cb 9b c0 02 00 00 78 |sage....U......x|
+|00000050| 72 00 29 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 |r.)cn.itcast.mes|
+|00000060| 73 61 67 65 2e 41 62 73 74 72 61 63 74 52 65 73 |sage.AbstractRes|
+|00000070| 70 6f 6e 73 65 4d 65 73 73 61 67 65 a4 7a 6f 68 |ponseMessage.zoh|
+|00000080| f5 f9 f6 05 02 00 02 5a 00 07 73 75 63 63 65 73 |.......Z..succes|
+|00000090| 73 4c 00 06 72 65 61 73 6f 6e 74 00 12 4c 6a 61 |sL..reasont..Lja|
+|000000a0| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 78 |va/lang/String;x|
+|000000b0| 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 |r..cn.itcast.mes|
+|000000c0| 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 a0 |sage.Message=...|
+|000000d0| bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 67 |..G....I..messag|
+|000000e0| 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 65 |eTypeI..sequence|
+|000000f0| 49 64 78 70 00 00 00 00 00 00 00 00 01 74 00 1e |Idxp.........t..|
+|00000100| e6 82 a8 e5 b7 b2 e8 a2 ab e6 8b 89 e5 85 a5 e6 |................|
+|00000110| bf 80 e6 83 85 e8 81 8a e5 a4 a9 e5 ae a4       |..............  |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:38:03 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] FLUSH
+2024-03-27 10:38:03 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60988546, L:/127.0.0.1:9999 - R:/127.0.0.1:55802] READ COMPLETE
+2024-03-27 10:38:03 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60bf0f40, L:/127.0.0.1:9999 - R:/127.0.0.1:55858] WRITE: 286B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 05 00 00 00 00 ff 00 00 01 0e |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6e 2e 69 74 63 61 73 |....sr.,cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 47 72 6f 75 70 43 |t.message.GroupC|
+|00000030| 72 65 61 74 65 52 65 73 70 6f 6e 73 65 4d 65 73 |reateResponseMes|
+|00000040| 73 61 67 65 11 9e b3 e5 55 cb 9b c0 02 00 00 78 |sage....U......x|
+|00000050| 72 00 29 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 |r.)cn.itcast.mes|
+|00000060| 73 61 67 65 2e 41 62 73 74 72 61 63 74 52 65 73 |sage.AbstractRes|
+|00000070| 70 6f 6e 73 65 4d 65 73 73 61 67 65 a4 7a 6f 68 |ponseMessage.zoh|
+|00000080| f5 f9 f6 05 02 00 02 5a 00 07 73 75 63 63 65 73 |.......Z..succes|
+|00000090| 73 4c 00 06 72 65 61 73 6f 6e 74 00 12 4c 6a 61 |sL..reasont..Lja|
+|000000a0| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 78 |va/lang/String;x|
+|000000b0| 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 |r..cn.itcast.mes|
+|000000c0| 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 a0 |sage.Message=...|
+|000000d0| bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 67 |..G....I..messag|
+|000000e0| 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 65 |eTypeI..sequence|
+|000000f0| 49 64 78 70 00 00 00 00 00 00 00 00 01 74 00 1e |Idxp.........t..|
+|00000100| e6 82 a8 e5 b7 b2 e8 a2 ab e6 8b 89 e5 85 a5 e6 |................|
+|00000110| bf 80 e6 83 85 e8 81 8a e5 a4 a9 e5 ae a4       |..............  |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:38:03 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x8d3b032f, L:/127.0.0.1:9999 - R:/127.0.0.1:55912] WRITE: 286B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 05 00 00 00 00 ff 00 00 01 0e |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6e 2e 69 74 63 61 73 |....sr.,cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 47 72 6f 75 70 43 |t.message.GroupC|
+|00000030| 72 65 61 74 65 52 65 73 70 6f 6e 73 65 4d 65 73 |reateResponseMes|
+|00000040| 73 61 67 65 11 9e b3 e5 55 cb 9b c0 02 00 00 78 |sage....U......x|
+|00000050| 72 00 29 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 |r.)cn.itcast.mes|
+|00000060| 73 61 67 65 2e 41 62 73 74 72 61 63 74 52 65 73 |sage.AbstractRes|
+|00000070| 70 6f 6e 73 65 4d 65 73 73 61 67 65 a4 7a 6f 68 |ponseMessage.zoh|
+|00000080| f5 f9 f6 05 02 00 02 5a 00 07 73 75 63 63 65 73 |.......Z..succes|
+|00000090| 73 4c 00 06 72 65 61 73 6f 6e 74 00 12 4c 6a 61 |sL..reasont..Lja|
+|000000a0| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 78 |va/lang/String;x|
+|000000b0| 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 73 |r..cn.itcast.mes|
+|000000c0| 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 a0 |sage.Message=...|
+|000000d0| bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 67 |..G....I..messag|
+|000000e0| 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 65 |eTypeI..sequence|
+|000000f0| 49 64 78 70 00 00 00 00 00 00 00 00 01 74 00 1e |Idxp.........t..|
+|00000100| e6 82 a8 e5 b7 b2 e8 a2 ab e6 8b 89 e5 85 a5 e6 |................|
+|00000110| bf 80 e6 83 85 e8 81 8a e5 a4 a9 e5 ae a4       |..............  |
++--------+-------------------------------------------------+----------------+
+2024-03-27 10:38:03 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x60bf0f40, L:/127.0.0.1:9999 - R:/127.0.0.1:55858] FLUSH
+2024-03-27 10:38:03 [nioEventLoopGroup-3-3] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x8d3b032f, L:/127.0.0.1:9999 - R:/127.0.0.1:55912] FLUSH
+2024-03-27 11:06:37 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xf3cd39cf, L:/127.0.0.1:9999 - R:/127.0.0.1:51708] REGISTERED
+2024-03-27 11:06:37 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xf3cd39cf, L:/127.0.0.1:9999 - R:/127.0.0.1:51708] ACTIVE
+2024-03-27 11:18:10 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] REGISTERED
+2024-03-27 11:18:10 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] ACTIVE
+2024-03-27 11:18:13 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ: 141B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 0e 00 00 00 00 ff 00 00 00 7d |...............}|
+|00000010| ac ed 00 05 73 72 00 1d 63 6e 2e 69 74 63 61 73 |....sr..cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 50 69 6e 67 4d 65 |t.message.PingMe|
+|00000030| 73 73 61 67 65 93 29 82 f2 84 ac fe 0f 02 00 00 |ssage.).........|
+|00000040| 78 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 |xr..cn.itcast.me|
+|00000050| 73 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 |ssage.Message=..|
+|00000060| a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 |...G....I..messa|
+|00000070| 67 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 |geTypeI..sequenc|
+|00000080| 65 49 64 78 70 00 00 00 00 00 00 00 00          |eIdxp........   |
++--------+-------------------------------------------------+----------------+
+2024-03-27 11:18:13 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ COMPLETE
+2024-03-27 11:18:16 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ: 141B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 0e 00 00 00 00 ff 00 00 00 7d |...............}|
+|00000010| ac ed 00 05 73 72 00 1d 63 6e 2e 69 74 63 61 73 |....sr..cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 50 69 6e 67 4d 65 |t.message.PingMe|
+|00000030| 73 73 61 67 65 93 29 82 f2 84 ac fe 0f 02 00 00 |ssage.).........|
+|00000040| 78 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 |xr..cn.itcast.me|
+|00000050| 73 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 |ssage.Message=..|
+|00000060| a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 |...G....I..messa|
+|00000070| 67 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 |geTypeI..sequenc|
+|00000080| 65 49 64 78 70 00 00 00 00 00 00 00 00          |eIdxp........   |
++--------+-------------------------------------------------+----------------+
+2024-03-27 11:18:16 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ COMPLETE
+2024-03-27 11:18:19 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ: 141B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 0e 00 00 00 00 ff 00 00 00 7d |...............}|
+|00000010| ac ed 00 05 73 72 00 1d 63 6e 2e 69 74 63 61 73 |....sr..cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 50 69 6e 67 4d 65 |t.message.PingMe|
+|00000030| 73 73 61 67 65 93 29 82 f2 84 ac fe 0f 02 00 00 |ssage.).........|
+|00000040| 78 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 |xr..cn.itcast.me|
+|00000050| 73 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 |ssage.Message=..|
+|00000060| a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 |...G....I..messa|
+|00000070| 67 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 |geTypeI..sequenc|
+|00000080| 65 49 64 78 70 00 00 00 00 00 00 00 00          |eIdxp........   |
++--------+-------------------------------------------------+----------------+
+2024-03-27 11:18:19 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ COMPLETE
+2024-03-27 11:18:22 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ: 141B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 0e 00 00 00 00 ff 00 00 00 7d |...............}|
+|00000010| ac ed 00 05 73 72 00 1d 63 6e 2e 69 74 63 61 73 |....sr..cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 50 69 6e 67 4d 65 |t.message.PingMe|
+|00000030| 73 73 61 67 65 93 29 82 f2 84 ac fe 0f 02 00 00 |ssage.).........|
+|00000040| 78 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 |xr..cn.itcast.me|
+|00000050| 73 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 |ssage.Message=..|
+|00000060| a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 |...G....I..messa|
+|00000070| 67 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 |geTypeI..sequenc|
+|00000080| 65 49 64 78 70 00 00 00 00 00 00 00 00          |eIdxp........   |
++--------+-------------------------------------------------+----------------+
+2024-03-27 11:18:22 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ COMPLETE
+2024-03-27 11:18:25 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ: 141B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 0e 00 00 00 00 ff 00 00 00 7d |...............}|
+|00000010| ac ed 00 05 73 72 00 1d 63 6e 2e 69 74 63 61 73 |....sr..cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 50 69 6e 67 4d 65 |t.message.PingMe|
+|00000030| 73 73 61 67 65 93 29 82 f2 84 ac fe 0f 02 00 00 |ssage.).........|
+|00000040| 78 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 |xr..cn.itcast.me|
+|00000050| 73 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 |ssage.Message=..|
+|00000060| a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 |...G....I..messa|
+|00000070| 67 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 |geTypeI..sequenc|
+|00000080| 65 49 64 78 70 00 00 00 00 00 00 00 00          |eIdxp........   |
++--------+-------------------------------------------------+----------------+
+2024-03-27 11:18:25 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ COMPLETE
+2024-03-27 11:18:28 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ: 141B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 0e 00 00 00 00 ff 00 00 00 7d |...............}|
+|00000010| ac ed 00 05 73 72 00 1d 63 6e 2e 69 74 63 61 73 |....sr..cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 50 69 6e 67 4d 65 |t.message.PingMe|
+|00000030| 73 73 61 67 65 93 29 82 f2 84 ac fe 0f 02 00 00 |ssage.).........|
+|00000040| 78 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 |xr..cn.itcast.me|
+|00000050| 73 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 |ssage.Message=..|
+|00000060| a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 |...G....I..messa|
+|00000070| 67 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 |geTypeI..sequenc|
+|00000080| 65 49 64 78 70 00 00 00 00 00 00 00 00          |eIdxp........   |
++--------+-------------------------------------------------+----------------+
+2024-03-27 11:18:28 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ COMPLETE
+2024-03-27 11:18:31 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ: 141B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 0e 00 00 00 00 ff 00 00 00 7d |...............}|
+|00000010| ac ed 00 05 73 72 00 1d 63 6e 2e 69 74 63 61 73 |....sr..cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 50 69 6e 67 4d 65 |t.message.PingMe|
+|00000030| 73 73 61 67 65 93 29 82 f2 84 ac fe 0f 02 00 00 |ssage.).........|
+|00000040| 78 72 00 19 63 6e 2e 69 74 63 61 73 74 2e 6d 65 |xr..cn.itcast.me|
+|00000050| 73 73 61 67 65 2e 4d 65 73 73 61 67 65 3d dd 19 |ssage.Message=..|
+|00000060| a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 73 73 61 |...G....I..messa|
+|00000070| 67 65 54 79 70 65 49 00 0a 73 65 71 75 65 6e 63 |geTypeI..sequenc|
+|00000080| 65 49 64 78 70 00 00 00 00 00 00 00 00          |eIdxp........   |
++--------+-------------------------------------------------+----------------+
+2024-03-27 11:18:31 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x0a4929df, L:/127.0.0.1:9999 - R:/127.0.0.1:63451] READ COMPLETE
+2024-03-27 14:09:25 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
+2024-03-27 14:09:25 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
+2024-03-27 14:09:25 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
+2024-03-27 14:09:25 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
+2024-03-27 14:09:25 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: LoginRequestMessage(super=Message(sequenceId=0, messageType=0), username=zhangsan, password=123)
+2024-03-27 14:09:25 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 214B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 c6 |................|
+|00000010| ac ed 00 05 73 72 00 25 63 6e 2e 69 74 63 61 73 |....sr.%cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 4c 6f 67 69 6e 52 |t.message.LoginR|
+|00000030| 65 71 75 65 73 74 4d 65 73 73 61 67 65 a0 3f 71 |equestMessage.?q|
+|00000040| cb 31 45 b5 88 02 00 02 4c 00 08 70 61 73 73 77 |.1E.....L..passw|
+|00000050| 6f 72 64 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 |ordt..Ljava/lang|
+|00000060| 2f 53 74 72 69 6e 67 3b 4c 00 08 75 73 65 72 6e |/String;L..usern|
+|00000070| 61 6d 65 71 00 7e 00 01 78 72 00 19 63 6e 2e 69 |ameq.~..xr..cn.i|
+|00000080| 74 63 61 73 74 2e 6d 65 73 73 61 67 65 2e 4d 65 |tcast.message.Me|
+|00000090| 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb 02 00 02 |ssage=.....G....|
+|000000a0| 49 00 0b 6d 65 73 73 61 67 65 54 79 70 65 49 00 |I..messageTypeI.|
+|000000b0| 0a 73 65 71 75 65 6e 63 65 49 64 78 70 00 00 00 |.sequenceIdxp...|
+|000000c0| 00 00 00 00 00 74 00 03 31 32 33 74 00 08 7a 68 |.....t..123t..zh|
+|000000d0| 61 6e 67 73 61 6e                               |angsan          |
++--------+-------------------------------------------------+----------------+
+2024-03-27 14:09:25 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
+2024-03-27 14:09:25 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
+2024-03-27 14:11:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
+2024-03-27 14:11:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
+2024-03-27 14:11:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
+2024-03-27 14:11:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
+2024-03-27 14:11:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: LoginRequestMessage(super=Message(sequenceId=0, messageType=0), username=zhangsan, password=123)
+2024-03-27 14:11:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] WRITE: 87B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 00 00 00 00 00 ff 00 00 00 47 |...............G|
+|00000010| 7b 22 75 73 65 72 6e 61 6d 65 22 3a 22 7a 68 61 |{"username":"zha|
+|00000020| 6e 67 73 61 6e 22 2c 22 70 61 73 73 77 6f 72 64 |ngsan","password|
+|00000030| 22 3a 22 31 32 33 22 2c 22 73 65 71 75 65 6e 63 |":"123","sequenc|
+|00000040| 65 49 64 22 3a 30 2c 22 6d 65 73 73 61 67 65 54 |eId":0,"messageT|
+|00000050| 79 70 65 22 3a 30 7d                            |ype":0}         |
++--------+-------------------------------------------------+----------------+
+2024-03-27 14:11:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
+2024-03-27 14:11:10 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] FLUSH
+2024-03-27 14:18:26 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
+2024-03-27 14:18:26 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] REGISTERED
+2024-03-27 14:18:26 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
+2024-03-27 14:18:26 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] ACTIVE
+2024-03-27 14:18:26 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ: 87B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 00 00 00 00 00 ff 00 00 00 47 |...............G|
+|00000010| 7b 22 75 73 65 72 6e 61 6d 65 22 3a 22 7a 68 61 |{"username":"zha|
+|00000020| 6e 67 73 61 6e 22 2c 22 70 61 73 73 77 6f 72 64 |ngsan","password|
+|00000030| 22 3a 22 31 32 33 22 2c 22 73 65 71 75 65 6e 63 |":"123","sequenc|
+|00000040| 65 49 64 22 3a 30 2c 22 6d 65 73 73 61 67 65 54 |eId":0,"messageT|
+|00000050| 79 70 65 22 3a 30 7d                            |ype":0}         |
++--------+-------------------------------------------------+----------------+
+2024-03-27 14:18:26 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ: LoginRequestMessage(super=Message(sequenceId=0, messageType=0), username=zhangsan, password=123)
+2024-03-27 14:18:26 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
+2024-03-27 14:18:26 [main] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
+2024-03-27 14:32:56 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4c161766] REGISTERED
+2024-03-27 14:32:56 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4c161766] CONNECT: /127.0.0.1:9999
+2024-03-27 14:32:57 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4c161766] CLOSE
+2024-03-27 14:32:57 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x4c161766] UNREGISTERED
+2024-03-27 14:35:36 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1a80861b] REGISTERED
+2024-03-27 14:35:36 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1a80861b] CONNECT: /127.0.0.1:9999
+2024-03-27 14:35:37 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1a80861b] CLOSE
+2024-03-27 14:35:37 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1a80861b] UNREGISTERED
