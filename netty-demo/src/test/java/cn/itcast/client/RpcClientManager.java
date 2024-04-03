@@ -15,6 +15,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
+import io.netty.util.concurrent.DefaultPromise;
 import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.Proxy;
@@ -34,7 +35,7 @@ public class RpcClientManager {
     public static void main(String[] args) throws InterruptedException {
 
         HelloService service = getProxyService(HelloService.class);
-        service.sayHello("张三");
+        System.out.println(service.sayHello("张三"));
 
     }
     // 创建代理类 使用代理类来将消息编辑后 并发送给服务端
@@ -44,10 +45,11 @@ public class RpcClientManager {
         ClassLoader loader = serviceClass.getClassLoader();
         // 代理类需要实现的接口列表  这段代码含义是创建一个新的Class类型的数组，并且将serviceClass作为数组的唯一元素
         Class<?>[] interfaces = new Class[]{serviceClass};
+        int sequenceId = SequenceIdGenerator.nextId();
         Object o = Proxy.newProxyInstance(loader ,interfaces, (proxy, method ,args) ->{
             // 1 将方法调用转换为消息对象
              RpcRequestMessage msg =  new RpcRequestMessage(
-                    SequenceIdGenerator.nextId(),   // SequenceId
+                     sequenceId,   // SequenceId
                     serviceClass.getName(),         // 类名
                     method.getName(),               // 方法名
                     method.getReturnType(),         // 返回值类型
@@ -58,8 +60,18 @@ public class RpcClientManager {
 
         // 2.  将消息对象发送出去
         getChannel().writeAndFlush(msg);
-        // 3.  暂时返回null
-        return null;
+        // 3.  获取响应信息（相当于发送一个空的书包） , 定义用哪个线程来填装数据到promise中，使用 getChannel().eventLoop() 方法可以将线程传递过去
+            DefaultPromise<Object> promise = new DefaultPromise<>(getChannel().eventLoop());
+            // 将  sequenceId 和背包 存放到handler的map中
+            RpcResponseMessageHandler.PROMISES.put(sequenceId, promise);
+
+            // 4. 等待背包被装填数据 类似于阻塞，只有promise中有数据，才会释放
+            promise.await();
+            if(promise.isSuccess()){
+                return promise.getNow();
+            } else {
+                return new RuntimeException(promise.cause());
+            }
       });
         return (T) o;
     }
