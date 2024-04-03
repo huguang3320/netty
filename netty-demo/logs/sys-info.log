@@ -1422,3 +1422,1744 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 2024-03-27 14:35:36 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1a80861b] CONNECT: /127.0.0.1:9999
 2024-03-27 14:35:37 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1a80861b] CLOSE
 2024-03-27 14:35:37 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1a80861b] UNREGISTERED
+2024-04-03 10:23:46 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d74e20] REGISTERED
+2024-04-03 10:23:46 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d74e20] CONNECT: localhost/127.0.0.1:8080
+2024-04-03 10:23:46 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d74e20, L:/127.0.0.1:57640 - R:localhost/127.0.0.1:8080] ACTIVE
+2024-04-03 10:23:46 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d74e20, L:/127.0.0.1:57640 - R:localhost/127.0.0.1:8080] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:23:46 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xd6d74e20, L:/127.0.0.1:57640 - R:localhost/127.0.0.1:8080] FLUSH
+2024-04-03 10:24:12 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb] REGISTERED
+2024-04-03 10:24:12 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb] CONNECT: localhost/127.0.0.1:9999
+2024-04-03 10:24:12 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-04-03 10:24:12 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaa3871b1, L:/127.0.0.1:9999 - R:/127.0.0.1:57152] REGISTERED
+2024-04-03 10:24:12 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaa3871b1, L:/127.0.0.1:9999 - R:/127.0.0.1:57152] ACTIVE
+2024-04-03 10:24:12 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 - R:localhost/127.0.0.1:9999] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:24:12 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 - R:localhost/127.0.0.1:9999] FLUSH
+2024-04-03 10:24:12 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaa3871b1, L:/127.0.0.1:9999 - R:/127.0.0.1:57152] READ: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:24:12 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaa3871b1, L:/127.0.0.1:9999 - R:/127.0.0.1:57152] WRITE: 5182B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 14 2e |......f.........|
+|00000010| 7b 22 65 78 63 65 70 74 69 6f 6e 56 61 6c 75 65 |{"exceptionValue|
+|00000020| 22 3a 7b 22 73 74 61 63 6b 54 72 61 63 65 22 3a |":{"stackTrace":|
+|00000030| 5b 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 |[{"declaringClas|
+|00000040| 73 22 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 |s":"cn.itcast.se|
+|00000050| 72 76 65 72 2e 68 61 6e 64 6c 65 72 2e 52 70 63 |rver.handler.Rpc|
+|00000060| 52 65 71 75 65 73 74 4d 65 73 73 61 67 65 48 61 |RequestMessageHa|
+|00000070| 6e 64 6c 65 72 22 2c 22 6d 65 74 68 6f 64 4e 61 |ndler","methodNa|
+|00000080| 6d 65 22 3a 22 63 68 61 6e 6e 65 6c 52 65 61 64 |me":"channelRead|
+|00000090| 30 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 52 |0","fileName":"R|
+|000000a0| 70 63 52 65 71 75 65 73 74 4d 65 73 73 61 67 65 |pcRequestMessage|
+|000000b0| 48 61 6e 64 6c 65 72 2e 6a 61 76 61 22 2c 22 6c |Handler.java","l|
+|000000c0| 69 6e 65 4e 75 6d 62 65 72 22 3a 33 33 7d 2c 7b |ineNumber":33},{|
+|000000d0| 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 |"declaringClass"|
+|000000e0| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|000000f0| 65 72 2e 68 61 6e 64 6c 65 72 2e 52 70 63 52 65 |er.handler.RpcRe|
+|00000100| 71 75 65 73 74 4d 65 73 73 61 67 65 48 61 6e 64 |questMessageHand|
+|00000110| 6c 65 72 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 |ler","methodName|
+|00000120| 22 3a 22 63 68 61 6e 6e 65 6c 52 65 61 64 30 22 |":"channelRead0"|
+|00000130| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 52 70 63 |,"fileName":"Rpc|
+|00000140| 52 65 71 75 65 73 74 4d 65 73 73 61 67 65 48 61 |RequestMessageHa|
+|00000150| 6e 64 6c 65 72 2e 6a 61 76 61 22 2c 22 6c 69 6e |ndler.java","lin|
+|00000160| 65 4e 75 6d 62 65 72 22 3a 32 30 7d 2c 7b 22 64 |eNumber":20},{"d|
+|00000170| 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 |eclaringClass":"|
+|00000180| 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c |io.netty.channel|
+|00000190| 2e 53 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e |.SimpleChannelIn|
+|000001a0| 62 6f 75 6e 64 48 61 6e 64 6c 65 72 22 2c 22 6d |boundHandler","m|
+|000001b0| 65 74 68 6f 64 4e 61 6d 65 22 3a 22 63 68 61 6e |ethodName":"chan|
+|000001c0| 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 |nelRead","fileNa|
+|000001d0| 6d 65 22 3a 22 53 69 6d 70 6c 65 43 68 61 6e 6e |me":"SimpleChann|
+|000001e0| 65 6c 49 6e 62 6f 75 6e 64 48 61 6e 64 6c 65 72 |elInboundHandler|
+|000001f0| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|00000200| 65 72 22 3a 39 39 7d 2c 7b 22 64 65 63 6c 61 72 |er":99},{"declar|
+|00000210| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00000220| 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 |tty.channel.Abst|
+|00000230| 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c |ractChannelHandl|
+|00000240| 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 68 |erContext","meth|
+|00000250| 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 43 |odName":"invokeC|
+|00000260| 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c |hannelRead","fil|
+|00000270| 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 74 |eName":"Abstract|
+|00000280| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|00000290| 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 6e |ntext.java","lin|
+|000002a0| 65 4e 75 6d 62 65 72 22 3a 33 37 39 7d 2c 7b 22 |eNumber":379},{"|
+|000002b0| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|000002c0| 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 |"io.netty.channe|
+|000002d0| 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |l.AbstractChanne|
+|000002e0| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 22 |lHandlerContext"|
+|000002f0| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 |,"methodName":"i|
+|00000300| 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 64 |nvokeChannelRead|
+|00000310| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 |","fileName":"Ab|
+|00000320| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00000330| 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 |dlerContext.java|
+|00000340| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 |","lineNumber":3|
+|00000350| 36 35 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |65},{"declaringC|
+|00000360| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00000370| 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 |channel.Abstract|
+|00000380| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|00000390| 6e 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 |ntext","methodNa|
+|000003a0| 6d 65 22 3a 22 66 69 72 65 43 68 61 6e 6e 65 6c |me":"fireChannel|
+|000003b0| 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 |Read","fileName"|
+|000003c0| 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |:"AbstractChanne|
+|000003d0| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 2e |lHandlerContext.|
+|000003e0| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|000003f0| 72 22 3a 33 35 37 7d 2c 7b 22 64 65 63 6c 61 72 |r":357},{"declar|
+|00000400| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00000410| 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 65 |tty.handler.code|
+|00000420| 63 2e 4d 65 73 73 61 67 65 54 6f 4d 65 73 73 61 |c.MessageToMessa|
+|00000430| 67 65 44 65 63 6f 64 65 72 22 2c 22 6d 65 74 68 |geDecoder","meth|
+|00000440| 6f 64 4e 61 6d 65 22 3a 22 63 68 61 6e 6e 65 6c |odName":"channel|
+|00000450| 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 |Read","fileName"|
+|00000460| 3a 22 4d 65 73 73 61 67 65 54 6f 4d 65 73 73 61 |:"MessageToMessa|
+|00000470| 67 65 44 65 63 6f 64 65 72 2e 6a 61 76 61 22 2c |geDecoder.java",|
+|00000480| 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 31 30 33 |"lineNumber":103|
+|00000490| 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 |},{"declaringCla|
+|000004a0| 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 68 61 |ss":"io.netty.ha|
+|000004b0| 6e 64 6c 65 72 2e 63 6f 64 65 63 2e 4d 65 73 73 |ndler.codec.Mess|
+|000004c0| 61 67 65 54 6f 4d 65 73 73 61 67 65 43 6f 64 65 |ageToMessageCode|
+|000004d0| 63 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a |c","methodName":|
+|000004e0| 22 63 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 |"channelRead","f|
+|000004f0| 69 6c 65 4e 61 6d 65 22 3a 22 4d 65 73 73 61 67 |ileName":"Messag|
+|00000500| 65 54 6f 4d 65 73 73 61 67 65 43 6f 64 65 63 2e |eToMessageCodec.|
+|00000510| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|00000520| 72 22 3a 31 31 31 7d 2c 7b 22 64 65 63 6c 61 72 |r":111},{"declar|
+|00000530| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00000540| 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 |tty.channel.Abst|
+|00000550| 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c |ractChannelHandl|
+|00000560| 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 68 |erContext","meth|
+|00000570| 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 43 |odName":"invokeC|
+|00000580| 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c |hannelRead","fil|
+|00000590| 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 74 |eName":"Abstract|
+|000005a0| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|000005b0| 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 6e |ntext.java","lin|
+|000005c0| 65 4e 75 6d 62 65 72 22 3a 33 37 39 7d 2c 7b 22 |eNumber":379},{"|
+|000005d0| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|000005e0| 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 |"io.netty.channe|
+|000005f0| 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |l.AbstractChanne|
+|00000600| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 22 |lHandlerContext"|
+|00000610| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 |,"methodName":"i|
+|00000620| 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 64 |nvokeChannelRead|
+|00000630| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 |","fileName":"Ab|
+|00000640| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00000650| 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 |dlerContext.java|
+|00000660| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 |","lineNumber":3|
+|00000670| 36 35 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |65},{"declaringC|
+|00000680| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00000690| 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 |channel.Abstract|
+|000006a0| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|000006b0| 6e 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 |ntext","methodNa|
+|000006c0| 6d 65 22 3a 22 66 69 72 65 43 68 61 6e 6e 65 6c |me":"fireChannel|
+|000006d0| 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 |Read","fileName"|
+|000006e0| 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |:"AbstractChanne|
+|000006f0| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 2e |lHandlerContext.|
+|00000700| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|00000710| 72 22 3a 33 35 37 7d 2c 7b 22 64 65 63 6c 61 72 |r":357},{"declar|
+|00000720| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00000730| 74 74 79 2e 68 61 6e 64 6c 65 72 2e 6c 6f 67 67 |tty.handler.logg|
+|00000740| 69 6e 67 2e 4c 6f 67 67 69 6e 67 48 61 6e 64 6c |ing.LoggingHandl|
+|00000750| 65 72 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 |er","methodName"|
+|00000760| 3a 22 63 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 |:"channelRead","|
+|00000770| 66 69 6c 65 4e 61 6d 65 22 3a 22 4c 6f 67 67 69 |fileName":"Loggi|
+|00000780| 6e 67 48 61 6e 64 6c 65 72 2e 6a 61 76 61 22 2c |ngHandler.java",|
+|00000790| 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 32 37 31 |"lineNumber":271|
+|000007a0| 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 |},{"declaringCla|
+|000007b0| 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 |ss":"io.netty.ch|
+|000007c0| 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 43 68 |annel.AbstractCh|
+|000007d0| 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 |annelHandlerCont|
+|000007e0| 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 |ext","methodName|
+|000007f0| 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c |":"invokeChannel|
+|00000800| 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 |Read","fileName"|
+|00000810| 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |:"AbstractChanne|
+|00000820| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 2e |lHandlerContext.|
+|00000830| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|00000840| 72 22 3a 33 37 39 7d 2c 7b 22 64 65 63 6c 61 72 |r":379},{"declar|
+|00000850| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00000860| 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 |tty.channel.Abst|
+|00000870| 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c |ractChannelHandl|
+|00000880| 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 68 |erContext","meth|
+|00000890| 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 43 |odName":"invokeC|
+|000008a0| 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c |hannelRead","fil|
+|000008b0| 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 74 |eName":"Abstract|
+|000008c0| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|000008d0| 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 6e |ntext.java","lin|
+|000008e0| 65 4e 75 6d 62 65 72 22 3a 33 36 35 7d 2c 7b 22 |eNumber":365},{"|
+|000008f0| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|00000900| 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 |"io.netty.channe|
+|00000910| 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |l.AbstractChanne|
+|00000920| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 22 |lHandlerContext"|
+|00000930| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 66 |,"methodName":"f|
+|00000940| 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c |ireChannelRead",|
+|00000950| 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 |"fileName":"Abst|
+|00000960| 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c |ractChannelHandl|
+|00000970| 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 22 2c |erContext.java",|
+|00000980| 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 35 37 |"lineNumber":357|
+|00000990| 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 |},{"declaringCla|
+|000009a0| 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 68 61 |ss":"io.netty.ha|
+|000009b0| 6e 64 6c 65 72 2e 63 6f 64 65 63 2e 42 79 74 65 |ndler.codec.Byte|
+|000009c0| 54 6f 4d 65 73 73 61 67 65 44 65 63 6f 64 65 72 |ToMessageDecoder|
+|000009d0| 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 |","methodName":"|
+|000009e0| 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 |fireChannelRead"|
+|000009f0| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 42 79 74 |,"fileName":"Byt|
+|00000a00| 65 54 6f 4d 65 73 73 61 67 65 44 65 63 6f 64 65 |eToMessageDecode|
+|00000a10| 72 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |r.java","lineNum|
+|00000a20| 62 65 72 22 3a 33 32 34 7d 2c 7b 22 64 65 63 6c |ber":324},{"decl|
+|00000a30| 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e |aringClass":"io.|
+|00000a40| 6e 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f |netty.handler.co|
+|00000a50| 64 65 63 2e 42 79 74 65 54 6f 4d 65 73 73 61 67 |dec.ByteToMessag|
+|00000a60| 65 44 65 63 6f 64 65 72 22 2c 22 6d 65 74 68 6f |eDecoder","metho|
+|00000a70| 64 4e 61 6d 65 22 3a 22 63 68 61 6e 6e 65 6c 52 |dName":"channelR|
+|00000a80| 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a |ead","fileName":|
+|00000a90| 22 42 79 74 65 54 6f 4d 65 73 73 61 67 65 44 65 |"ByteToMessageDe|
+|00000aa0| 63 6f 64 65 72 2e 6a 61 76 61 22 2c 22 6c 69 6e |coder.java","lin|
+|00000ab0| 65 4e 75 6d 62 65 72 22 3a 32 39 36 7d 2c 7b 22 |eNumber":296},{"|
+|00000ac0| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|00000ad0| 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 |"io.netty.channe|
+|00000ae0| 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |l.AbstractChanne|
+|00000af0| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 22 |lHandlerContext"|
+|00000b00| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 |,"methodName":"i|
+|00000b10| 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 64 |nvokeChannelRead|
+|00000b20| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 |","fileName":"Ab|
+|00000b30| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00000b40| 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 |dlerContext.java|
+|00000b50| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 |","lineNumber":3|
+|00000b60| 37 39 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |79},{"declaringC|
+|00000b70| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00000b80| 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 |channel.Abstract|
+|00000b90| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|00000ba0| 6e 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 |ntext","methodNa|
+|00000bb0| 6d 65 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e |me":"invokeChann|
+|00000bc0| 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d |elRead","fileNam|
+|00000bd0| 65 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e |e":"AbstractChan|
+|00000be0| 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 |nelHandlerContex|
+|00000bf0| 74 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |t.java","lineNum|
+|00000c00| 62 65 72 22 3a 33 36 35 7d 2c 7b 22 64 65 63 6c |ber":365},{"decl|
+|00000c10| 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e |aringClass":"io.|
+|00000c20| 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 |netty.channel.Ab|
+|00000c30| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00000c40| 64 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 |dlerContext","me|
+|00000c50| 74 68 6f 64 4e 61 6d 65 22 3a 22 66 69 72 65 43 |thodName":"fireC|
+|00000c60| 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c |hannelRead","fil|
+|00000c70| 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 74 |eName":"Abstract|
+|00000c80| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|00000c90| 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 6e |ntext.java","lin|
+|00000ca0| 65 4e 75 6d 62 65 72 22 3a 33 35 37 7d 2c 7b 22 |eNumber":357},{"|
+|00000cb0| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|00000cc0| 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 |"io.netty.channe|
+|00000cd0| 6c 2e 44 65 66 61 75 6c 74 43 68 61 6e 6e 65 6c |l.DefaultChannel|
+|00000ce0| 50 69 70 65 6c 69 6e 65 24 48 65 61 64 43 6f 6e |Pipeline$HeadCon|
+|00000cf0| 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d |text","methodNam|
+|00000d00| 65 22 3a 22 63 68 61 6e 6e 65 6c 52 65 61 64 22 |e":"channelRead"|
+|00000d10| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 44 65 66 |,"fileName":"Def|
+|00000d20| 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 65 6c |aultChannelPipel|
+|00000d30| 69 6e 65 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e |ine.java","lineN|
+|00000d40| 75 6d 62 65 72 22 3a 31 34 31 30 7d 2c 7b 22 64 |umber":1410},{"d|
+|00000d50| 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 |eclaringClass":"|
+|00000d60| 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c |io.netty.channel|
+|00000d70| 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 6c |.AbstractChannel|
+|00000d80| 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 22 2c |HandlerContext",|
+|00000d90| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e |"methodName":"in|
+|00000da0| 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 |vokeChannelRead"|
+|00000db0| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 |,"fileName":"Abs|
+|00000dc0| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|00000dd0| 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 22 |lerContext.java"|
+|00000de0| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 37 |,"lineNumber":37|
+|00000df0| 39 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |9},{"declaringCl|
+|00000e00| 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 |ass":"io.netty.c|
+|00000e10| 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 43 |hannel.AbstractC|
+|00000e20| 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e |hannelHandlerCon|
+|00000e30| 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d |text","methodNam|
+|00000e40| 65 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 |e":"invokeChanne|
+|00000e50| 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 |lRead","fileName|
+|00000e60| 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e 6e |":"AbstractChann|
+|00000e70| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00000e80| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|00000e90| 65 72 22 3a 33 36 35 7d 2c 7b 22 64 65 63 6c 61 |er":365},{"decla|
+|00000ea0| 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e |ringClass":"io.n|
+|00000eb0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 44 65 66 |etty.channel.Def|
+|00000ec0| 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 65 6c |aultChannelPipel|
+|00000ed0| 69 6e 65 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 |ine","methodName|
+|00000ee0| 22 3a 22 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 |":"fireChannelRe|
+|00000ef0| 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 |ad","fileName":"|
+|00000f00| 44 65 66 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 |DefaultChannelPi|
+|00000f10| 70 65 6c 69 6e 65 2e 6a 61 76 61 22 2c 22 6c 69 |peline.java","li|
+|00000f20| 6e 65 4e 75 6d 62 65 72 22 3a 39 31 39 7d 2c 7b |neNumber":919},{|
+|00000f30| 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 |"declaringClass"|
+|00000f40| 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e |:"io.netty.chann|
+|00000f50| 65 6c 2e 6e 69 6f 2e 41 62 73 74 72 61 63 74 4e |el.nio.AbstractN|
+|00000f60| 69 6f 42 79 74 65 43 68 61 6e 6e 65 6c 24 4e 69 |ioByteChannel$Ni|
+|00000f70| 6f 42 79 74 65 55 6e 73 61 66 65 22 2c 22 6d 65 |oByteUnsafe","me|
+|00000f80| 74 68 6f 64 4e 61 6d 65 22 3a 22 72 65 61 64 22 |thodName":"read"|
+|00000f90| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 |,"fileName":"Abs|
+|00000fa0| 74 72 61 63 74 4e 69 6f 42 79 74 65 43 68 61 6e |tractNioByteChan|
+|00000fb0| 6e 65 6c 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e |nel.java","lineN|
+|00000fc0| 75 6d 62 65 72 22 3a 31 36 36 7d 2c 7b 22 64 65 |umber":166},{"de|
+|00000fd0| 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 |claringClass":"i|
+|00000fe0| 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e |o.netty.channel.|
+|00000ff0| 6e 69 6f 2e 4e 69 6f 45 76 65 6e 74 4c 6f 6f 70 |nio.NioEventLoop|
+|00001000| 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 |","methodName":"|
+|00001010| 70 72 6f 63 65 73 73 53 65 6c 65 63 74 65 64 4b |processSelectedK|
+|00001020| 65 79 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 |ey","fileName":"|
+|00001030| 4e 69 6f 45 76 65 6e 74 4c 6f 6f 70 2e 6a 61 76 |NioEventLoop.jav|
+|00001040| 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a |a","lineNumber":|
+|00001050| 37 31 39 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 |719},{"declaring|
+|00001060| 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 |Class":"io.netty|
+|00001070| 2e 63 68 61 6e 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f |.channel.nio.Nio|
+|00001080| 45 76 65 6e 74 4c 6f 6f 70 22 2c 22 6d 65 74 68 |EventLoop","meth|
+|00001090| 6f 64 4e 61 6d 65 22 3a 22 70 72 6f 63 65 73 73 |odName":"process|
+|000010a0| 53 65 6c 65 63 74 65 64 4b 65 79 73 4f 70 74 69 |SelectedKeysOpti|
+|000010b0| 6d 69 7a 65 64 22 2c 22 66 69 6c 65 4e 61 6d 65 |mized","fileName|
+|000010c0| 22 3a 22 4e 69 6f 45 76 65 6e 74 4c 6f 6f 70 2e |":"NioEventLoop.|
+|000010d0| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|000010e0| 72 22 3a 36 35 35 7d 2c 7b 22 64 65 63 6c 61 72 |r":655},{"declar|
+|000010f0| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00001100| 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 6e 69 6f 2e |tty.channel.nio.|
+|00001110| 4e 69 6f 45 76 65 6e 74 4c 6f 6f 70 22 2c 22 6d |NioEventLoop","m|
+|00001120| 65 74 68 6f 64 4e 61 6d 65 22 3a 22 70 72 6f 63 |ethodName":"proc|
+|00001130| 65 73 73 53 65 6c 65 63 74 65 64 4b 65 79 73 22 |essSelectedKeys"|
+|00001140| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 4e 69 6f |,"fileName":"Nio|
+|00001150| 45 76 65 6e 74 4c 6f 6f 70 2e 6a 61 76 61 22 2c |EventLoop.java",|
+|00001160| 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 35 38 31 |"lineNumber":581|
+|00001170| 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 |},{"declaringCla|
+|00001180| 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 |ss":"io.netty.ch|
+|00001190| 61 6e 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f 45 76 65 |annel.nio.NioEve|
+|000011a0| 6e 74 4c 6f 6f 70 22 2c 22 6d 65 74 68 6f 64 4e |ntLoop","methodN|
+|000011b0| 61 6d 65 22 3a 22 72 75 6e 22 2c 22 66 69 6c 65 |ame":"run","file|
+|000011c0| 4e 61 6d 65 22 3a 22 4e 69 6f 45 76 65 6e 74 4c |Name":"NioEventL|
+|000011d0| 6f 6f 70 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e |oop.java","lineN|
+|000011e0| 75 6d 62 65 72 22 3a 34 39 33 7d 2c 7b 22 64 65 |umber":493},{"de|
+|000011f0| 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 |claringClass":"i|
+|00001200| 6f 2e 6e 65 74 74 79 2e 75 74 69 6c 2e 63 6f 6e |o.netty.util.con|
+|00001210| 63 75 72 72 65 6e 74 2e 53 69 6e 67 6c 65 54 68 |current.SingleTh|
+|00001220| 72 65 61 64 45 76 65 6e 74 45 78 65 63 75 74 6f |readEventExecuto|
+|00001230| 72 24 34 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 |r$4","methodName|
+|00001240| 22 3a 22 72 75 6e 22 2c 22 66 69 6c 65 4e 61 6d |":"run","fileNam|
+|00001250| 65 22 3a 22 53 69 6e 67 6c 65 54 68 72 65 61 64 |e":"SingleThread|
+|00001260| 45 76 65 6e 74 45 78 65 63 75 74 6f 72 2e 6a 61 |EventExecutor.ja|
+|00001270| 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 |va","lineNumber"|
+|00001280| 3a 39 38 39 7d 2c 7b 22 64 65 63 6c 61 72 69 6e |:989},{"declarin|
+|00001290| 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 |gClass":"io.nett|
+|000012a0| 79 2e 75 74 69 6c 2e 69 6e 74 65 72 6e 61 6c 2e |y.util.internal.|
+|000012b0| 54 68 72 65 61 64 45 78 65 63 75 74 6f 72 4d 61 |ThreadExecutorMa|
+|000012c0| 70 24 32 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 |p$2","methodName|
+|000012d0| 22 3a 22 72 75 6e 22 2c 22 66 69 6c 65 4e 61 6d |":"run","fileNam|
+|000012e0| 65 22 3a 22 54 68 72 65 61 64 45 78 65 63 75 74 |e":"ThreadExecut|
+|000012f0| 6f 72 4d 61 70 2e 6a 61 76 61 22 2c 22 6c 69 6e |orMap.java","lin|
+|00001300| 65 4e 75 6d 62 65 72 22 3a 37 34 7d 2c 7b 22 64 |eNumber":74},{"d|
+|00001310| 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 |eclaringClass":"|
+|00001320| 69 6f 2e 6e 65 74 74 79 2e 75 74 69 6c 2e 63 6f |io.netty.util.co|
+|00001330| 6e 63 75 72 72 65 6e 74 2e 46 61 73 74 54 68 72 |ncurrent.FastThr|
+|00001340| 65 61 64 4c 6f 63 61 6c 52 75 6e 6e 61 62 6c 65 |eadLocalRunnable|
+|00001350| 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 |","methodName":"|
+|00001360| 72 75 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a |run","fileName":|
+|00001370| 22 46 61 73 74 54 68 72 65 61 64 4c 6f 63 61 6c |"FastThreadLocal|
+|00001380| 52 75 6e 6e 61 62 6c 65 2e 6a 61 76 61 22 2c 22 |Runnable.java","|
+|00001390| 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 30 7d 2c |lineNumber":30},|
+|000013a0| 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 |{"declaringClass|
+|000013b0| 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 54 68 72 |":"java.lang.Thr|
+|000013c0| 65 61 64 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 |ead","methodName|
+|000013d0| 22 3a 22 72 75 6e 22 2c 22 66 69 6c 65 4e 61 6d |":"run","fileNam|
+|000013e0| 65 22 3a 22 54 68 72 65 61 64 2e 6a 61 76 61 22 |e":"Thread.java"|
+|000013f0| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 37 34 |,"lineNumber":74|
+|00001400| 38 7d 5d 2c 22 73 75 70 70 72 65 73 73 65 64 45 |8}],"suppressedE|
+|00001410| 78 63 65 70 74 69 6f 6e 73 22 3a 5b 5d 7d 2c 22 |xceptions":[]},"|
+|00001420| 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 6d |sequenceId":0,"m|
+|00001430| 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d       |essageType":0}  |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:24:12 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaa3871b1, L:/127.0.0.1:9999 - R:/127.0.0.1:57152] FLUSH
+2024-04-03 10:24:12 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaa3871b1, L:/127.0.0.1:9999 - R:/127.0.0.1:57152] READ COMPLETE
+2024-04-03 10:24:12 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 - R:localhost/127.0.0.1:9999] EXCEPTION: io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 5182 - discarded
+io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 5182 - discarded
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.fail(LengthFieldBasedFrameDecoder.java:503)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.failIfNecessary(LengthFieldBasedFrameDecoder.java:489)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.exceededFrameLength(LengthFieldBasedFrameDecoder.java:376)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:419)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:332)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:508)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:447)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:24:12 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:26:03 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:26:03 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 - R:localhost/127.0.0.1:9999] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:26:03 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 ! R:localhost/127.0.0.1:9999] INACTIVE
+2024-04-03 10:26:03 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x86a507eb, L:/127.0.0.1:57152 ! R:localhost/127.0.0.1:9999] UNREGISTERED
+2024-04-03 10:26:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x7c518394] REGISTERED
+2024-04-03 10:26:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x7c518394] CONNECT: localhost/127.0.0.1:9999
+2024-04-03 10:26:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x7c518394, L:/127.0.0.1:53882 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-04-03 10:26:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 - R:/127.0.0.1:53882] REGISTERED
+2024-04-03 10:26:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 - R:/127.0.0.1:53882] ACTIVE
+2024-04-03 10:26:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x7c518394, L:/127.0.0.1:53882 - R:localhost/127.0.0.1:9999] WRITE: 489B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 65 00 00 00 01 ff 00 00 01 d9 |......e.........|
+|00000010| ac ed 00 05 73 72 00 23 63 6e 2e 69 74 63 61 73 |....sr.#cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 71 |t.message.RpcReq|
+|00000030| 75 65 73 74 4d 65 73 73 61 67 65 77 a9 15 85 09 |uestMessagew....|
+|00000040| 7f 73 45 02 00 05 4c 00 0d 69 6e 74 65 72 66 61 |.sE...L..interfa|
+|00000050| 63 65 4e 61 6d 65 74 00 12 4c 6a 61 76 61 2f 6c |ceNamet..Ljava/l|
+|00000060| 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 0a 6d 65 |ang/String;L..me|
+|00000070| 74 68 6f 64 4e 61 6d 65 71 00 7e 00 01 5b 00 0e |thodNameq.~..[..|
+|00000080| 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 74 00 |parameterTypest.|
+|00000090| 12 5b 4c 6a 61 76 61 2f 6c 61 6e 67 2f 43 6c 61 |.[Ljava/lang/Cla|
+|000000a0| 73 73 3b 5b 00 0e 70 61 72 61 6d 65 74 65 72 56 |ss;[..parameterV|
+|000000b0| 61 6c 75 65 74 00 13 5b 4c 6a 61 76 61 2f 6c 61 |aluet..[Ljava/la|
+|000000c0| 6e 67 2f 4f 62 6a 65 63 74 3b 4c 00 0a 72 65 74 |ng/Object;L..ret|
+|000000d0| 75 72 6e 54 79 70 65 74 00 11 4c 6a 61 76 61 2f |urnTypet..Ljava/|
+|000000e0| 6c 61 6e 67 2f 43 6c 61 73 73 3b 78 72 00 19 63 |lang/Class;xr..c|
+|000000f0| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|00000100| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|00000110| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|00000120| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000130| 00 00 00 00 00 00 00 01 74 00 25 63 6e 2e 69 74 |........t.%cn.it|
+|00000140| 63 61 73 74 2e 73 65 72 76 65 72 2e 73 65 72 76 |cast.server.serv|
+|00000150| 69 63 65 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 |ice.HelloService|
+|00000160| 74 00 08 73 61 79 48 65 6c 6c 6f 75 72 00 12 5b |t..sayHellour..[|
+|00000170| 4c 6a 61 76 61 2e 6c 61 6e 67 2e 43 6c 61 73 73 |Ljava.lang.Class|
+|00000180| 3b ab 16 d7 ae cb cd 5a 99 02 00 00 78 70 00 00 |;......Z....xp..|
+|00000190| 00 01 76 72 00 10 6a 61 76 61 2e 6c 61 6e 67 2e |..vr..java.lang.|
+|000001a0| 53 74 72 69 6e 67 a0 f0 a4 38 7a 3b b3 42 02 00 |String...8z;.B..|
+|000001b0| 00 78 70 75 72 00 13 5b 4c 6a 61 76 61 2e 6c 61 |.xpur..[Ljava.la|
+|000001c0| 6e 67 2e 4f 62 6a 65 63 74 3b 90 ce 58 9f 10 73 |ng.Object;..X..s|
+|000001d0| 29 6c 02 00 00 78 70 00 00 00 01 74 00 06 e5 bc |)l...xp....t....|
+|000001e0| a0 e4 b8 89 71 00 7e 00 0c                      |....q.~..       |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:26:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x7c518394, L:/127.0.0.1:53882 - R:localhost/127.0.0.1:9999] FLUSH
+2024-04-03 10:26:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 - R:/127.0.0.1:53882] READ: 489B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 65 00 00 00 01 ff 00 00 01 d9 |......e.........|
+|00000010| ac ed 00 05 73 72 00 23 63 6e 2e 69 74 63 61 73 |....sr.#cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 71 |t.message.RpcReq|
+|00000030| 75 65 73 74 4d 65 73 73 61 67 65 77 a9 15 85 09 |uestMessagew....|
+|00000040| 7f 73 45 02 00 05 4c 00 0d 69 6e 74 65 72 66 61 |.sE...L..interfa|
+|00000050| 63 65 4e 61 6d 65 74 00 12 4c 6a 61 76 61 2f 6c |ceNamet..Ljava/l|
+|00000060| 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 0a 6d 65 |ang/String;L..me|
+|00000070| 74 68 6f 64 4e 61 6d 65 71 00 7e 00 01 5b 00 0e |thodNameq.~..[..|
+|00000080| 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 74 00 |parameterTypest.|
+|00000090| 12 5b 4c 6a 61 76 61 2f 6c 61 6e 67 2f 43 6c 61 |.[Ljava/lang/Cla|
+|000000a0| 73 73 3b 5b 00 0e 70 61 72 61 6d 65 74 65 72 56 |ss;[..parameterV|
+|000000b0| 61 6c 75 65 74 00 13 5b 4c 6a 61 76 61 2f 6c 61 |aluet..[Ljava/la|
+|000000c0| 6e 67 2f 4f 62 6a 65 63 74 3b 4c 00 0a 72 65 74 |ng/Object;L..ret|
+|000000d0| 75 72 6e 54 79 70 65 74 00 11 4c 6a 61 76 61 2f |urnTypet..Ljava/|
+|000000e0| 6c 61 6e 67 2f 43 6c 61 73 73 3b 78 72 00 19 63 |lang/Class;xr..c|
+|000000f0| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|00000100| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|00000110| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|00000120| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000130| 00 00 00 00 00 00 00 01 74 00 25 63 6e 2e 69 74 |........t.%cn.it|
+|00000140| 63 61 73 74 2e 73 65 72 76 65 72 2e 73 65 72 76 |cast.server.serv|
+|00000150| 69 63 65 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 |ice.HelloService|
+|00000160| 74 00 08 73 61 79 48 65 6c 6c 6f 75 72 00 12 5b |t..sayHellour..[|
+|00000170| 4c 6a 61 76 61 2e 6c 61 6e 67 2e 43 6c 61 73 73 |Ljava.lang.Class|
+|00000180| 3b ab 16 d7 ae cb cd 5a 99 02 00 00 78 70 00 00 |;......Z....xp..|
+|00000190| 00 01 76 72 00 10 6a 61 76 61 2e 6c 61 6e 67 2e |..vr..java.lang.|
+|000001a0| 53 74 72 69 6e 67 a0 f0 a4 38 7a 3b b3 42 02 00 |String...8z;.B..|
+|000001b0| 00 78 70 75 72 00 13 5b 4c 6a 61 76 61 2e 6c 61 |.xpur..[Ljava.la|
+|000001c0| 6e 67 2e 4f 62 6a 65 63 74 3b 90 ce 58 9f 10 73 |ng.Object;..X..s|
+|000001d0| 29 6c 02 00 00 78 70 00 00 00 01 74 00 06 e5 bc |)l...xp....t....|
+|000001e0| a0 e4 b8 89 71 00 7e 00 0c                      |....q.~..       |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:26:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 - R:/127.0.0.1:53882] WRITE: 2797B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 66 00 00 00 00 ff 00 00 0a dd |......f.........|
+|00000010| ac ed 00 05 73 72 00 24 63 6e 2e 69 74 63 61 73 |....sr.$cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 73 |t.message.RpcRes|
+|00000030| 70 6f 6e 73 65 4d 65 73 73 61 67 65 ae f6 35 ad |ponseMessage..5.|
+|00000040| 01 3f 01 e8 02 00 02 4c 00 0e 65 78 63 65 70 74 |.?.....L..except|
+|00000050| 69 6f 6e 56 61 6c 75 65 74 00 15 4c 6a 61 76 61 |ionValuet..Ljava|
+|00000060| 2f 6c 61 6e 67 2f 45 78 63 65 70 74 69 6f 6e 3b |/lang/Exception;|
+|00000070| 4c 00 0b 72 65 74 75 72 6e 56 61 6c 75 65 74 00 |L..returnValuet.|
+|00000080| 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 4f 62 6a 65 |.Ljava/lang/Obje|
+|00000090| 63 74 3b 78 72 00 19 63 6e 2e 69 74 63 61 73 74 |ct;xr..cn.itcast|
+|000000a0| 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 65 |.message.Message|
+|000000b0| 3d dd 19 a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 |=.....G....I..me|
+|000000c0| 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 75 |ssageTypeI..sequ|
+|000000d0| 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 00 |enceIdxp........|
+|000000e0| 73 72 00 1e 6a 61 76 61 2e 6c 61 6e 67 2e 4e 75 |sr..java.lang.Nu|
+|000000f0| 6c 6c 50 6f 69 6e 74 65 72 45 78 63 65 70 74 69 |llPointerExcepti|
+|00000100| 6f 6e 47 a5 a1 8e ff 31 e1 b8 02 00 00 78 72 00 |onG....1.....xr.|
+|00000110| 1a 6a 61 76 61 2e 6c 61 6e 67 2e 52 75 6e 74 69 |.java.lang.Runti|
+|00000120| 6d 65 45 78 63 65 70 74 69 6f 6e 9e 5f 06 47 0a |meException._.G.|
+|00000130| 34 83 e5 02 00 00 78 72 00 13 6a 61 76 61 2e 6c |4.....xr..java.l|
+|00000140| 61 6e 67 2e 45 78 63 65 70 74 69 6f 6e d0 fd 1f |ang.Exception...|
+|00000150| 3e 1a 3b 1c c4 02 00 00 78 72 00 13 6a 61 76 61 |>.;.....xr..java|
+|00000160| 2e 6c 61 6e 67 2e 54 68 72 6f 77 61 62 6c 65 d5 |.lang.Throwable.|
+|00000170| c6 35 27 39 77 b8 cb 03 00 04 4c 00 05 63 61 75 |.5'9w.....L..cau|
+|00000180| 73 65 74 00 15 4c 6a 61 76 61 2f 6c 61 6e 67 2f |set..Ljava/lang/|
+|00000190| 54 68 72 6f 77 61 62 6c 65 3b 4c 00 0d 64 65 74 |Throwable;L..det|
+|000001a0| 61 69 6c 4d 65 73 73 61 67 65 74 00 12 4c 6a 61 |ailMessaget..Lja|
+|000001b0| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 5b |va/lang/String;[|
+|000001c0| 00 0a 73 74 61 63 6b 54 72 61 63 65 74 00 1e 5b |..stackTracet..[|
+|000001d0| 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 61 63 6b |Ljava/lang/Stack|
+|000001e0| 54 72 61 63 65 45 6c 65 6d 65 6e 74 3b 4c 00 14 |TraceElement;L..|
+|000001f0| 73 75 70 70 72 65 73 73 65 64 45 78 63 65 70 74 |suppressedExcept|
+|00000200| 69 6f 6e 73 74 00 10 4c 6a 61 76 61 2f 75 74 69 |ionst..Ljava/uti|
+|00000210| 6c 2f 4c 69 73 74 3b 78 70 71 00 7e 00 0d 70 75 |l/List;xpq.~..pu|
+|00000220| 72 00 1e 5b 4c 6a 61 76 61 2e 6c 61 6e 67 2e 53 |r..[Ljava.lang.S|
+|00000230| 74 61 63 6b 54 72 61 63 65 45 6c 65 6d 65 6e 74 |tackTraceElement|
+|00000240| 3b 02 46 2a 3c 3c fd 22 39 02 00 00 78 70 00 00 |;.F*<<."9...xp..|
+|00000250| 00 21 73 72 00 1b 6a 61 76 61 2e 6c 61 6e 67 2e |.!sr..java.lang.|
+|00000260| 53 74 61 63 6b 54 72 61 63 65 45 6c 65 6d 65 6e |StackTraceElemen|
+|00000270| 74 61 09 c5 9a 26 36 dd 85 02 00 04 49 00 0a 6c |ta...&6.....I..l|
+|00000280| 69 6e 65 4e 75 6d 62 65 72 4c 00 0e 64 65 63 6c |ineNumberL..decl|
+|00000290| 61 72 69 6e 67 43 6c 61 73 73 71 00 7e 00 0a 4c |aringClassq.~..L|
+|000002a0| 00 08 66 69 6c 65 4e 61 6d 65 71 00 7e 00 0a 4c |..fileNameq.~..L|
+|000002b0| 00 0a 6d 65 74 68 6f 64 4e 61 6d 65 71 00 7e 00 |..methodNameq.~.|
+|000002c0| 0a 78 70 00 00 00 21 74 00 31 63 6e 2e 69 74 63 |.xp...!t.1cn.itc|
+|000002d0| 61 73 74 2e 73 65 72 76 65 72 2e 68 61 6e 64 6c |ast.server.handl|
+|000002e0| 65 72 2e 52 70 63 52 65 71 75 65 73 74 4d 65 73 |er.RpcRequestMes|
+|000002f0| 73 61 67 65 48 61 6e 64 6c 65 72 74 00 1d 52 70 |sageHandlert..Rp|
+|00000300| 63 52 65 71 75 65 73 74 4d 65 73 73 61 67 65 48 |cRequestMessageH|
+|00000310| 61 6e 64 6c 65 72 2e 6a 61 76 61 74 00 0c 63 68 |andler.javat..ch|
+|00000320| 61 6e 6e 65 6c 52 65 61 64 30 73 71 00 7e 00 10 |annelRead0sq.~..|
+|00000330| 00 00 00 14 71 00 7e 00 12 71 00 7e 00 13 71 00 |....q.~..q.~..q.|
+|00000340| 7e 00 14 73 71 00 7e 00 10 00 00 00 63 74 00 2c |~..sq.~.....ct.,|
+|00000350| 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c |io.netty.channel|
+|00000360| 2e 53 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e |.SimpleChannelIn|
+|00000370| 62 6f 75 6e 64 48 61 6e 64 6c 65 72 74 00 20 53 |boundHandlert. S|
+|00000380| 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e 62 6f |impleChannelInbo|
+|00000390| 75 6e 64 48 61 6e 64 6c 65 72 2e 6a 61 76 61 74 |undHandler.javat|
+|000003a0| 00 0b 63 68 61 6e 6e 65 6c 52 65 61 64 73 71 00 |..channelReadsq.|
+|000003b0| 7e 00 10 00 00 01 7b 74 00 2e 69 6f 2e 6e 65 74 |~.....{t..io.net|
+|000003c0| 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 |ty.channel.Abstr|
+|000003d0| 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 |actChannelHandle|
+|000003e0| 72 43 6f 6e 74 65 78 74 74 00 22 41 62 73 74 72 |rContextt."Abstr|
+|000003f0| 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 |actChannelHandle|
+|00000400| 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 74 00 11 |rContext.javat..|
+|00000410| 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 |invokeChannelRea|
+|00000420| 64 73 71 00 7e 00 10 00 00 01 6d 71 00 7e 00 1b |dsq.~.....mq.~..|
+|00000430| 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 |q.~..q.~..sq.~..|
+|00000440| 00 00 01 65 71 00 7e 00 1b 71 00 7e 00 1c 74 00 |...eq.~..q.~..t.|
+|00000450| 0f 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 |.fireChannelRead|
+|00000460| 73 71 00 7e 00 10 00 00 00 67 74 00 2e 69 6f 2e |sq.~.....gt..io.|
+|00000470| 6e 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f |netty.handler.co|
+|00000480| 64 65 63 2e 4d 65 73 73 61 67 65 54 6f 4d 65 73 |dec.MessageToMes|
+|00000490| 73 61 67 65 44 65 63 6f 64 65 72 74 00 1c 4d 65 |sageDecodert..Me|
+|000004a0| 73 73 61 67 65 54 6f 4d 65 73 73 61 67 65 44 65 |ssageToMessageDe|
+|000004b0| 63 6f 64 65 72 2e 6a 61 76 61 71 00 7e 00 19 73 |coder.javaq.~..s|
+|000004c0| 71 00 7e 00 10 00 00 00 6f 74 00 2c 69 6f 2e 6e |q.~.....ot.,io.n|
+|000004d0| 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 |etty.handler.cod|
+|000004e0| 65 63 2e 4d 65 73 73 61 67 65 54 6f 4d 65 73 73 |ec.MessageToMess|
+|000004f0| 61 67 65 43 6f 64 65 63 74 00 1a 4d 65 73 73 61 |ageCodect..Messa|
+|00000500| 67 65 54 6f 4d 65 73 73 61 67 65 43 6f 64 65 63 |geToMessageCodec|
+|00000510| 2e 6a 61 76 61 71 00 7e 00 19 73 71 00 7e 00 10 |.javaq.~..sq.~..|
+|00000520| 00 00 01 7b 71 00 7e 00 1b 71 00 7e 00 1c 71 00 |...{q.~..q.~..q.|
+|00000530| 7e 00 1d 73 71 00 7e 00 10 00 00 01 6d 71 00 7e |~..sq.~.....mq.~|
+|00000540| 00 1b 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e |..q.~..q.~..sq.~|
+|00000550| 00 10 00 00 01 65 71 00 7e 00 1b 71 00 7e 00 1c |.....eq.~..q.~..|
+|00000560| 71 00 7e 00 20 73 71 00 7e 00 10 00 00 01 0f 74 |q.~. sq.~......t|
+|00000570| 00 27 69 6f 2e 6e 65 74 74 79 2e 68 61 6e 64 6c |.'io.netty.handl|
+|00000580| 65 72 2e 6c 6f 67 67 69 6e 67 2e 4c 6f 67 67 69 |er.logging.Loggi|
+|00000590| 6e 67 48 61 6e 64 6c 65 72 74 00 13 4c 6f 67 67 |ngHandlert..Logg|
+|000005a0| 69 6e 67 48 61 6e 64 6c 65 72 2e 6a 61 76 61 71 |ingHandler.javaq|
+|000005b0| 00 7e 00 19 73 71 00 7e 00 10 00 00 01 7b 71 00 |.~..sq.~.....{q.|
+|000005c0| 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 |~..q.~..q.~..sq.|
+|000005d0| 7e 00 10 00 00 01 6d 71 00 7e 00 1b 71 00 7e 00 |~.....mq.~..q.~.|
+|000005e0| 1c 71 00 7e 00 1d 73 71 00 7e 00 10 00 00 01 65 |.q.~..sq.~.....e|
+|000005f0| 71 00 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 20 73 |q.~..q.~..q.~. s|
+|00000600| 71 00 7e 00 10 00 00 01 44 74 00 2b 69 6f 2e 6e |q.~.....Dt.+io.n|
+|00000610| 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 |etty.handler.cod|
+|00000620| 65 63 2e 42 79 74 65 54 6f 4d 65 73 73 61 67 65 |ec.ByteToMessage|
+|00000630| 44 65 63 6f 64 65 72 74 00 19 42 79 74 65 54 6f |Decodert..ByteTo|
+|00000640| 4d 65 73 73 61 67 65 44 65 63 6f 64 65 72 2e 6a |MessageDecoder.j|
+|00000650| 61 76 61 71 00 7e 00 20 73 71 00 7e 00 10 00 00 |avaq.~. sq.~....|
+|00000660| 01 28 71 00 7e 00 31 71 00 7e 00 32 71 00 7e 00 |.(q.~.1q.~.2q.~.|
+|00000670| 19 73 71 00 7e 00 10 00 00 01 7b 71 00 7e 00 1b |.sq.~.....{q.~..|
+|00000680| 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 |q.~..q.~..sq.~..|
+|00000690| 00 00 01 6d 71 00 7e 00 1b 71 00 7e 00 1c 71 00 |...mq.~..q.~..q.|
+|000006a0| 7e 00 1d 73 71 00 7e 00 10 00 00 01 65 71 00 7e |~..sq.~.....eq.~|
+|000006b0| 00 1b 71 00 7e 00 1c 71 00 7e 00 20 73 71 00 7e |..q.~..q.~. sq.~|
+|000006c0| 00 10 00 00 05 82 74 00 33 69 6f 2e 6e 65 74 74 |......t.3io.nett|
+|000006d0| 79 2e 63 68 61 6e 6e 65 6c 2e 44 65 66 61 75 6c |y.channel.Defaul|
+|000006e0| 74 43 68 61 6e 6e 65 6c 50 69 70 65 6c 69 6e 65 |tChannelPipeline|
+|000006f0| 24 48 65 61 64 43 6f 6e 74 65 78 74 74 00 1b 44 |$HeadContextt..D|
+|00000700| 65 66 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 |efaultChannelPip|
+|00000710| 65 6c 69 6e 65 2e 6a 61 76 61 71 00 7e 00 19 73 |eline.javaq.~..s|
+|00000720| 71 00 7e 00 10 00 00 01 7b 71 00 7e 00 1b 71 00 |q.~.....{q.~..q.|
+|00000730| 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 00 00 |~..q.~..sq.~....|
+|00000740| 01 6d 71 00 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 |.mq.~..q.~..q.~.|
+|00000750| 1d 73 71 00 7e 00 10 00 00 03 97 74 00 27 69 6f |.sq.~......t.'io|
+|00000760| 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 44 |.netty.channel.D|
+|00000770| 65 66 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 |efaultChannelPip|
+|00000780| 65 6c 69 6e 65 71 00 7e 00 39 71 00 7e 00 20 73 |elineq.~.9q.~. s|
+|00000790| 71 00 7e 00 10 00 00 00 a6 74 00 39 69 6f 2e 6e |q.~......t.9io.n|
+|000007a0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 6e 69 6f |etty.channel.nio|
+|000007b0| 2e 41 62 73 74 72 61 63 74 4e 69 6f 42 79 74 65 |.AbstractNioByte|
+|000007c0| 43 68 61 6e 6e 65 6c 24 4e 69 6f 42 79 74 65 55 |Channel$NioByteU|
+|000007d0| 6e 73 61 66 65 74 00 1b 41 62 73 74 72 61 63 74 |nsafet..Abstract|
+|000007e0| 4e 69 6f 42 79 74 65 43 68 61 6e 6e 65 6c 2e 6a |NioByteChannel.j|
+|000007f0| 61 76 61 74 00 04 72 65 61 64 73 71 00 7e 00 10 |avat..readsq.~..|
+|00000800| 00 00 02 cf 74 00 21 69 6f 2e 6e 65 74 74 79 2e |....t.!io.netty.|
+|00000810| 63 68 61 6e 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f 45 |channel.nio.NioE|
+|00000820| 76 65 6e 74 4c 6f 6f 70 74 00 11 4e 69 6f 45 76 |ventLoopt..NioEv|
+|00000830| 65 6e 74 4c 6f 6f 70 2e 6a 61 76 61 74 00 12 70 |entLoop.javat..p|
+|00000840| 72 6f 63 65 73 73 53 65 6c 65 63 74 65 64 4b 65 |rocessSelectedKe|
+|00000850| 79 73 71 00 7e 00 10 00 00 02 8f 71 00 7e 00 43 |ysq.~......q.~.C|
+|00000860| 71 00 7e 00 44 74 00 1c 70 72 6f 63 65 73 73 53 |q.~.Dt..processS|
+|00000870| 65 6c 65 63 74 65 64 4b 65 79 73 4f 70 74 69 6d |electedKeysOptim|
+|00000880| 69 7a 65 64 73 71 00 7e 00 10 00 00 02 45 71 00 |izedsq.~.....Eq.|
+|00000890| 7e 00 43 71 00 7e 00 44 74 00 13 70 72 6f 63 65 |~.Cq.~.Dt..proce|
+|000008a0| 73 73 53 65 6c 65 63 74 65 64 4b 65 79 73 73 71 |ssSelectedKeyssq|
+|000008b0| 00 7e 00 10 00 00 01 ed 71 00 7e 00 43 71 00 7e |.~......q.~.Cq.~|
+|000008c0| 00 44 74 00 03 72 75 6e 73 71 00 7e 00 10 00 00 |.Dt..runsq.~....|
+|000008d0| 03 dd 74 00 34 69 6f 2e 6e 65 74 74 79 2e 75 74 |..t.4io.netty.ut|
+|000008e0| 69 6c 2e 63 6f 6e 63 75 72 72 65 6e 74 2e 53 69 |il.concurrent.Si|
+|000008f0| 6e 67 6c 65 54 68 72 65 61 64 45 76 65 6e 74 45 |ngleThreadEventE|
+|00000900| 78 65 63 75 74 6f 72 24 34 74 00 1e 53 69 6e 67 |xecutor$4t..Sing|
+|00000910| 6c 65 54 68 72 65 61 64 45 76 65 6e 74 45 78 65 |leThreadEventExe|
+|00000920| 63 75 74 6f 72 2e 6a 61 76 61 71 00 7e 00 4b 73 |cutor.javaq.~.Ks|
+|00000930| 71 00 7e 00 10 00 00 00 4a 74 00 2a 69 6f 2e 6e |q.~.....Jt.*io.n|
+|00000940| 65 74 74 79 2e 75 74 69 6c 2e 69 6e 74 65 72 6e |etty.util.intern|
+|00000950| 61 6c 2e 54 68 72 65 61 64 45 78 65 63 75 74 6f |al.ThreadExecuto|
+|00000960| 72 4d 61 70 24 32 74 00 16 54 68 72 65 61 64 45 |rMap$2t..ThreadE|
+|00000970| 78 65 63 75 74 6f 72 4d 61 70 2e 6a 61 76 61 71 |xecutorMap.javaq|
+|00000980| 00 7e 00 4b 73 71 00 7e 00 10 00 00 00 1e 74 00 |.~.Ksq.~......t.|
+|00000990| 30 69 6f 2e 6e 65 74 74 79 2e 75 74 69 6c 2e 63 |0io.netty.util.c|
+|000009a0| 6f 6e 63 75 72 72 65 6e 74 2e 46 61 73 74 54 68 |oncurrent.FastTh|
+|000009b0| 72 65 61 64 4c 6f 63 61 6c 52 75 6e 6e 61 62 6c |readLocalRunnabl|
+|000009c0| 65 74 00 1c 46 61 73 74 54 68 72 65 61 64 4c 6f |et..FastThreadLo|
+|000009d0| 63 61 6c 52 75 6e 6e 61 62 6c 65 2e 6a 61 76 61 |calRunnable.java|
+|000009e0| 71 00 7e 00 4b 73 71 00 7e 00 10 00 00 02 ec 74 |q.~.Ksq.~......t|
+|000009f0| 00 10 6a 61 76 61 2e 6c 61 6e 67 2e 54 68 72 65 |..java.lang.Thre|
+|00000a00| 61 64 74 00 0b 54 68 72 65 61 64 2e 6a 61 76 61 |adt..Thread.java|
+|00000a10| 71 00 7e 00 4b 73 72 00 26 6a 61 76 61 2e 75 74 |q.~.Ksr.&java.ut|
+|00000a20| 69 6c 2e 43 6f 6c 6c 65 63 74 69 6f 6e 73 24 55 |il.Collections$U|
+|00000a30| 6e 6d 6f 64 69 66 69 61 62 6c 65 4c 69 73 74 fc |nmodifiableList.|
+|00000a40| 0f 25 31 b5 ec 8e 10 02 00 01 4c 00 04 6c 69 73 |.%1.......L..lis|
+|00000a50| 74 71 00 7e 00 0c 78 72 00 2c 6a 61 76 61 2e 75 |tq.~..xr.,java.u|
+|00000a60| 74 69 6c 2e 43 6f 6c 6c 65 63 74 69 6f 6e 73 24 |til.Collections$|
+|00000a70| 55 6e 6d 6f 64 69 66 69 61 62 6c 65 43 6f 6c 6c |UnmodifiableColl|
+|00000a80| 65 63 74 69 6f 6e 19 42 00 80 cb 5e f7 1e 02 00 |ection.B...^....|
+|00000a90| 01 4c 00 01 63 74 00 16 4c 6a 61 76 61 2f 75 74 |.L..ct..Ljava/ut|
+|00000aa0| 69 6c 2f 43 6f 6c 6c 65 63 74 69 6f 6e 3b 78 70 |il/Collection;xp|
+|00000ab0| 73 72 00 13 6a 61 76 61 2e 75 74 69 6c 2e 41 72 |sr..java.util.Ar|
+|00000ac0| 72 61 79 4c 69 73 74 78 81 d2 1d 99 c7 61 9d 03 |rayListx.....a..|
+|00000ad0| 00 01 49 00 04 73 69 7a 65 78 70 00 00 00 00 77 |..I..sizexp....w|
+|00000ae0| 04 00 00 00 00 78 71 00 7e 00 5d 78 70          |.....xq.~.]xp   |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:26:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 - R:/127.0.0.1:53882] FLUSH
+2024-04-03 10:26:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 - R:/127.0.0.1:53882] READ COMPLETE
+2024-04-03 10:26:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x7c518394, L:/127.0.0.1:53882 - R:localhost/127.0.0.1:9999] EXCEPTION: io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 2797 - discarded
+io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 2797 - discarded
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.fail(LengthFieldBasedFrameDecoder.java:503)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.failIfNecessary(LengthFieldBasedFrameDecoder.java:489)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.exceededFrameLength(LengthFieldBasedFrameDecoder.java:376)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:419)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:332)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:508)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:447)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:26:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x7c518394, L:/127.0.0.1:53882 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:27:57 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 - R:/127.0.0.1:53882] READ COMPLETE
+2024-04-03 10:27:57 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 - R:/127.0.0.1:53882] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:27:57 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 ! R:/127.0.0.1:53882] INACTIVE
+2024-04-03 10:27:57 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xb632b2a6, L:/127.0.0.1:9999 ! R:/127.0.0.1:53882] UNREGISTERED
+2024-04-03 10:28:02 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013] REGISTERED
+2024-04-03 10:28:02 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013] CONNECT: localhost/127.0.0.1:9999
+2024-04-03 10:28:02 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-04-03 10:28:02 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa1bd3dbf, L:/127.0.0.1:9999 - R:/127.0.0.1:51575] REGISTERED
+2024-04-03 10:28:02 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa1bd3dbf, L:/127.0.0.1:9999 - R:/127.0.0.1:51575] ACTIVE
+2024-04-03 10:28:02 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 - R:localhost/127.0.0.1:9999] WRITE: 489B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 65 00 00 00 01 ff 00 00 01 d9 |......e.........|
+|00000010| ac ed 00 05 73 72 00 23 63 6e 2e 69 74 63 61 73 |....sr.#cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 71 |t.message.RpcReq|
+|00000030| 75 65 73 74 4d 65 73 73 61 67 65 77 a9 15 85 09 |uestMessagew....|
+|00000040| 7f 73 45 02 00 05 4c 00 0d 69 6e 74 65 72 66 61 |.sE...L..interfa|
+|00000050| 63 65 4e 61 6d 65 74 00 12 4c 6a 61 76 61 2f 6c |ceNamet..Ljava/l|
+|00000060| 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 0a 6d 65 |ang/String;L..me|
+|00000070| 74 68 6f 64 4e 61 6d 65 71 00 7e 00 01 5b 00 0e |thodNameq.~..[..|
+|00000080| 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 74 00 |parameterTypest.|
+|00000090| 12 5b 4c 6a 61 76 61 2f 6c 61 6e 67 2f 43 6c 61 |.[Ljava/lang/Cla|
+|000000a0| 73 73 3b 5b 00 0e 70 61 72 61 6d 65 74 65 72 56 |ss;[..parameterV|
+|000000b0| 61 6c 75 65 74 00 13 5b 4c 6a 61 76 61 2f 6c 61 |aluet..[Ljava/la|
+|000000c0| 6e 67 2f 4f 62 6a 65 63 74 3b 4c 00 0a 72 65 74 |ng/Object;L..ret|
+|000000d0| 75 72 6e 54 79 70 65 74 00 11 4c 6a 61 76 61 2f |urnTypet..Ljava/|
+|000000e0| 6c 61 6e 67 2f 43 6c 61 73 73 3b 78 72 00 19 63 |lang/Class;xr..c|
+|000000f0| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|00000100| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|00000110| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|00000120| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000130| 00 00 00 00 00 00 00 01 74 00 25 63 6e 2e 69 74 |........t.%cn.it|
+|00000140| 63 61 73 74 2e 73 65 72 76 65 72 2e 73 65 72 76 |cast.server.serv|
+|00000150| 69 63 65 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 |ice.HelloService|
+|00000160| 74 00 08 73 61 79 48 65 6c 6c 6f 75 72 00 12 5b |t..sayHellour..[|
+|00000170| 4c 6a 61 76 61 2e 6c 61 6e 67 2e 43 6c 61 73 73 |Ljava.lang.Class|
+|00000180| 3b ab 16 d7 ae cb cd 5a 99 02 00 00 78 70 00 00 |;......Z....xp..|
+|00000190| 00 01 76 72 00 10 6a 61 76 61 2e 6c 61 6e 67 2e |..vr..java.lang.|
+|000001a0| 53 74 72 69 6e 67 a0 f0 a4 38 7a 3b b3 42 02 00 |String...8z;.B..|
+|000001b0| 00 78 70 75 72 00 13 5b 4c 6a 61 76 61 2e 6c 61 |.xpur..[Ljava.la|
+|000001c0| 6e 67 2e 4f 62 6a 65 63 74 3b 90 ce 58 9f 10 73 |ng.Object;..X..s|
+|000001d0| 29 6c 02 00 00 78 70 00 00 00 01 74 00 06 e5 bc |)l...xp....t....|
+|000001e0| a0 e4 b8 89 71 00 7e 00 0c                      |....q.~..       |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:28:02 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 - R:localhost/127.0.0.1:9999] FLUSH
+2024-04-03 10:28:02 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa1bd3dbf, L:/127.0.0.1:9999 - R:/127.0.0.1:51575] READ: 489B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 65 00 00 00 01 ff 00 00 01 d9 |......e.........|
+|00000010| ac ed 00 05 73 72 00 23 63 6e 2e 69 74 63 61 73 |....sr.#cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 71 |t.message.RpcReq|
+|00000030| 75 65 73 74 4d 65 73 73 61 67 65 77 a9 15 85 09 |uestMessagew....|
+|00000040| 7f 73 45 02 00 05 4c 00 0d 69 6e 74 65 72 66 61 |.sE...L..interfa|
+|00000050| 63 65 4e 61 6d 65 74 00 12 4c 6a 61 76 61 2f 6c |ceNamet..Ljava/l|
+|00000060| 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 0a 6d 65 |ang/String;L..me|
+|00000070| 74 68 6f 64 4e 61 6d 65 71 00 7e 00 01 5b 00 0e |thodNameq.~..[..|
+|00000080| 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 74 00 |parameterTypest.|
+|00000090| 12 5b 4c 6a 61 76 61 2f 6c 61 6e 67 2f 43 6c 61 |.[Ljava/lang/Cla|
+|000000a0| 73 73 3b 5b 00 0e 70 61 72 61 6d 65 74 65 72 56 |ss;[..parameterV|
+|000000b0| 61 6c 75 65 74 00 13 5b 4c 6a 61 76 61 2f 6c 61 |aluet..[Ljava/la|
+|000000c0| 6e 67 2f 4f 62 6a 65 63 74 3b 4c 00 0a 72 65 74 |ng/Object;L..ret|
+|000000d0| 75 72 6e 54 79 70 65 74 00 11 4c 6a 61 76 61 2f |urnTypet..Ljava/|
+|000000e0| 6c 61 6e 67 2f 43 6c 61 73 73 3b 78 72 00 19 63 |lang/Class;xr..c|
+|000000f0| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|00000100| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|00000110| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|00000120| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000130| 00 00 00 00 00 00 00 01 74 00 25 63 6e 2e 69 74 |........t.%cn.it|
+|00000140| 63 61 73 74 2e 73 65 72 76 65 72 2e 73 65 72 76 |cast.server.serv|
+|00000150| 69 63 65 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 |ice.HelloService|
+|00000160| 74 00 08 73 61 79 48 65 6c 6c 6f 75 72 00 12 5b |t..sayHellour..[|
+|00000170| 4c 6a 61 76 61 2e 6c 61 6e 67 2e 43 6c 61 73 73 |Ljava.lang.Class|
+|00000180| 3b ab 16 d7 ae cb cd 5a 99 02 00 00 78 70 00 00 |;......Z....xp..|
+|00000190| 00 01 76 72 00 10 6a 61 76 61 2e 6c 61 6e 67 2e |..vr..java.lang.|
+|000001a0| 53 74 72 69 6e 67 a0 f0 a4 38 7a 3b b3 42 02 00 |String...8z;.B..|
+|000001b0| 00 78 70 75 72 00 13 5b 4c 6a 61 76 61 2e 6c 61 |.xpur..[Ljava.la|
+|000001c0| 6e 67 2e 4f 62 6a 65 63 74 3b 90 ce 58 9f 10 73 |ng.Object;..X..s|
+|000001d0| 29 6c 02 00 00 78 70 00 00 00 01 74 00 06 e5 bc |)l...xp....t....|
+|000001e0| a0 e4 b8 89 71 00 7e 00 0c                      |....q.~..       |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:28:02 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa1bd3dbf, L:/127.0.0.1:9999 - R:/127.0.0.1:51575] WRITE: 2797B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 66 00 00 00 00 ff 00 00 0a dd |......f.........|
+|00000010| ac ed 00 05 73 72 00 24 63 6e 2e 69 74 63 61 73 |....sr.$cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 73 |t.message.RpcRes|
+|00000030| 70 6f 6e 73 65 4d 65 73 73 61 67 65 ae f6 35 ad |ponseMessage..5.|
+|00000040| 01 3f 01 e8 02 00 02 4c 00 0e 65 78 63 65 70 74 |.?.....L..except|
+|00000050| 69 6f 6e 56 61 6c 75 65 74 00 15 4c 6a 61 76 61 |ionValuet..Ljava|
+|00000060| 2f 6c 61 6e 67 2f 45 78 63 65 70 74 69 6f 6e 3b |/lang/Exception;|
+|00000070| 4c 00 0b 72 65 74 75 72 6e 56 61 6c 75 65 74 00 |L..returnValuet.|
+|00000080| 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 4f 62 6a 65 |.Ljava/lang/Obje|
+|00000090| 63 74 3b 78 72 00 19 63 6e 2e 69 74 63 61 73 74 |ct;xr..cn.itcast|
+|000000a0| 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 65 |.message.Message|
+|000000b0| 3d dd 19 a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 |=.....G....I..me|
+|000000c0| 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 75 |ssageTypeI..sequ|
+|000000d0| 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 00 |enceIdxp........|
+|000000e0| 73 72 00 1e 6a 61 76 61 2e 6c 61 6e 67 2e 4e 75 |sr..java.lang.Nu|
+|000000f0| 6c 6c 50 6f 69 6e 74 65 72 45 78 63 65 70 74 69 |llPointerExcepti|
+|00000100| 6f 6e 47 a5 a1 8e ff 31 e1 b8 02 00 00 78 72 00 |onG....1.....xr.|
+|00000110| 1a 6a 61 76 61 2e 6c 61 6e 67 2e 52 75 6e 74 69 |.java.lang.Runti|
+|00000120| 6d 65 45 78 63 65 70 74 69 6f 6e 9e 5f 06 47 0a |meException._.G.|
+|00000130| 34 83 e5 02 00 00 78 72 00 13 6a 61 76 61 2e 6c |4.....xr..java.l|
+|00000140| 61 6e 67 2e 45 78 63 65 70 74 69 6f 6e d0 fd 1f |ang.Exception...|
+|00000150| 3e 1a 3b 1c c4 02 00 00 78 72 00 13 6a 61 76 61 |>.;.....xr..java|
+|00000160| 2e 6c 61 6e 67 2e 54 68 72 6f 77 61 62 6c 65 d5 |.lang.Throwable.|
+|00000170| c6 35 27 39 77 b8 cb 03 00 04 4c 00 05 63 61 75 |.5'9w.....L..cau|
+|00000180| 73 65 74 00 15 4c 6a 61 76 61 2f 6c 61 6e 67 2f |set..Ljava/lang/|
+|00000190| 54 68 72 6f 77 61 62 6c 65 3b 4c 00 0d 64 65 74 |Throwable;L..det|
+|000001a0| 61 69 6c 4d 65 73 73 61 67 65 74 00 12 4c 6a 61 |ailMessaget..Lja|
+|000001b0| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 5b |va/lang/String;[|
+|000001c0| 00 0a 73 74 61 63 6b 54 72 61 63 65 74 00 1e 5b |..stackTracet..[|
+|000001d0| 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 61 63 6b |Ljava/lang/Stack|
+|000001e0| 54 72 61 63 65 45 6c 65 6d 65 6e 74 3b 4c 00 14 |TraceElement;L..|
+|000001f0| 73 75 70 70 72 65 73 73 65 64 45 78 63 65 70 74 |suppressedExcept|
+|00000200| 69 6f 6e 73 74 00 10 4c 6a 61 76 61 2f 75 74 69 |ionst..Ljava/uti|
+|00000210| 6c 2f 4c 69 73 74 3b 78 70 71 00 7e 00 0d 70 75 |l/List;xpq.~..pu|
+|00000220| 72 00 1e 5b 4c 6a 61 76 61 2e 6c 61 6e 67 2e 53 |r..[Ljava.lang.S|
+|00000230| 74 61 63 6b 54 72 61 63 65 45 6c 65 6d 65 6e 74 |tackTraceElement|
+|00000240| 3b 02 46 2a 3c 3c fd 22 39 02 00 00 78 70 00 00 |;.F*<<."9...xp..|
+|00000250| 00 21 73 72 00 1b 6a 61 76 61 2e 6c 61 6e 67 2e |.!sr..java.lang.|
+|00000260| 53 74 61 63 6b 54 72 61 63 65 45 6c 65 6d 65 6e |StackTraceElemen|
+|00000270| 74 61 09 c5 9a 26 36 dd 85 02 00 04 49 00 0a 6c |ta...&6.....I..l|
+|00000280| 69 6e 65 4e 75 6d 62 65 72 4c 00 0e 64 65 63 6c |ineNumberL..decl|
+|00000290| 61 72 69 6e 67 43 6c 61 73 73 71 00 7e 00 0a 4c |aringClassq.~..L|
+|000002a0| 00 08 66 69 6c 65 4e 61 6d 65 71 00 7e 00 0a 4c |..fileNameq.~..L|
+|000002b0| 00 0a 6d 65 74 68 6f 64 4e 61 6d 65 71 00 7e 00 |..methodNameq.~.|
+|000002c0| 0a 78 70 00 00 00 21 74 00 31 63 6e 2e 69 74 63 |.xp...!t.1cn.itc|
+|000002d0| 61 73 74 2e 73 65 72 76 65 72 2e 68 61 6e 64 6c |ast.server.handl|
+|000002e0| 65 72 2e 52 70 63 52 65 71 75 65 73 74 4d 65 73 |er.RpcRequestMes|
+|000002f0| 73 61 67 65 48 61 6e 64 6c 65 72 74 00 1d 52 70 |sageHandlert..Rp|
+|00000300| 63 52 65 71 75 65 73 74 4d 65 73 73 61 67 65 48 |cRequestMessageH|
+|00000310| 61 6e 64 6c 65 72 2e 6a 61 76 61 74 00 0c 63 68 |andler.javat..ch|
+|00000320| 61 6e 6e 65 6c 52 65 61 64 30 73 71 00 7e 00 10 |annelRead0sq.~..|
+|00000330| 00 00 00 14 71 00 7e 00 12 71 00 7e 00 13 71 00 |....q.~..q.~..q.|
+|00000340| 7e 00 14 73 71 00 7e 00 10 00 00 00 63 74 00 2c |~..sq.~.....ct.,|
+|00000350| 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c |io.netty.channel|
+|00000360| 2e 53 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e |.SimpleChannelIn|
+|00000370| 62 6f 75 6e 64 48 61 6e 64 6c 65 72 74 00 20 53 |boundHandlert. S|
+|00000380| 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e 62 6f |impleChannelInbo|
+|00000390| 75 6e 64 48 61 6e 64 6c 65 72 2e 6a 61 76 61 74 |undHandler.javat|
+|000003a0| 00 0b 63 68 61 6e 6e 65 6c 52 65 61 64 73 71 00 |..channelReadsq.|
+|000003b0| 7e 00 10 00 00 01 7b 74 00 2e 69 6f 2e 6e 65 74 |~.....{t..io.net|
+|000003c0| 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 |ty.channel.Abstr|
+|000003d0| 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 |actChannelHandle|
+|000003e0| 72 43 6f 6e 74 65 78 74 74 00 22 41 62 73 74 72 |rContextt."Abstr|
+|000003f0| 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 |actChannelHandle|
+|00000400| 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 74 00 11 |rContext.javat..|
+|00000410| 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 |invokeChannelRea|
+|00000420| 64 73 71 00 7e 00 10 00 00 01 6d 71 00 7e 00 1b |dsq.~.....mq.~..|
+|00000430| 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 |q.~..q.~..sq.~..|
+|00000440| 00 00 01 65 71 00 7e 00 1b 71 00 7e 00 1c 74 00 |...eq.~..q.~..t.|
+|00000450| 0f 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 |.fireChannelRead|
+|00000460| 73 71 00 7e 00 10 00 00 00 67 74 00 2e 69 6f 2e |sq.~.....gt..io.|
+|00000470| 6e 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f |netty.handler.co|
+|00000480| 64 65 63 2e 4d 65 73 73 61 67 65 54 6f 4d 65 73 |dec.MessageToMes|
+|00000490| 73 61 67 65 44 65 63 6f 64 65 72 74 00 1c 4d 65 |sageDecodert..Me|
+|000004a0| 73 73 61 67 65 54 6f 4d 65 73 73 61 67 65 44 65 |ssageToMessageDe|
+|000004b0| 63 6f 64 65 72 2e 6a 61 76 61 71 00 7e 00 19 73 |coder.javaq.~..s|
+|000004c0| 71 00 7e 00 10 00 00 00 6f 74 00 2c 69 6f 2e 6e |q.~.....ot.,io.n|
+|000004d0| 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 |etty.handler.cod|
+|000004e0| 65 63 2e 4d 65 73 73 61 67 65 54 6f 4d 65 73 73 |ec.MessageToMess|
+|000004f0| 61 67 65 43 6f 64 65 63 74 00 1a 4d 65 73 73 61 |ageCodect..Messa|
+|00000500| 67 65 54 6f 4d 65 73 73 61 67 65 43 6f 64 65 63 |geToMessageCodec|
+|00000510| 2e 6a 61 76 61 71 00 7e 00 19 73 71 00 7e 00 10 |.javaq.~..sq.~..|
+|00000520| 00 00 01 7b 71 00 7e 00 1b 71 00 7e 00 1c 71 00 |...{q.~..q.~..q.|
+|00000530| 7e 00 1d 73 71 00 7e 00 10 00 00 01 6d 71 00 7e |~..sq.~.....mq.~|
+|00000540| 00 1b 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e |..q.~..q.~..sq.~|
+|00000550| 00 10 00 00 01 65 71 00 7e 00 1b 71 00 7e 00 1c |.....eq.~..q.~..|
+|00000560| 71 00 7e 00 20 73 71 00 7e 00 10 00 00 01 0f 74 |q.~. sq.~......t|
+|00000570| 00 27 69 6f 2e 6e 65 74 74 79 2e 68 61 6e 64 6c |.'io.netty.handl|
+|00000580| 65 72 2e 6c 6f 67 67 69 6e 67 2e 4c 6f 67 67 69 |er.logging.Loggi|
+|00000590| 6e 67 48 61 6e 64 6c 65 72 74 00 13 4c 6f 67 67 |ngHandlert..Logg|
+|000005a0| 69 6e 67 48 61 6e 64 6c 65 72 2e 6a 61 76 61 71 |ingHandler.javaq|
+|000005b0| 00 7e 00 19 73 71 00 7e 00 10 00 00 01 7b 71 00 |.~..sq.~.....{q.|
+|000005c0| 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 |~..q.~..q.~..sq.|
+|000005d0| 7e 00 10 00 00 01 6d 71 00 7e 00 1b 71 00 7e 00 |~.....mq.~..q.~.|
+|000005e0| 1c 71 00 7e 00 1d 73 71 00 7e 00 10 00 00 01 65 |.q.~..sq.~.....e|
+|000005f0| 71 00 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 20 73 |q.~..q.~..q.~. s|
+|00000600| 71 00 7e 00 10 00 00 01 44 74 00 2b 69 6f 2e 6e |q.~.....Dt.+io.n|
+|00000610| 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 |etty.handler.cod|
+|00000620| 65 63 2e 42 79 74 65 54 6f 4d 65 73 73 61 67 65 |ec.ByteToMessage|
+|00000630| 44 65 63 6f 64 65 72 74 00 19 42 79 74 65 54 6f |Decodert..ByteTo|
+|00000640| 4d 65 73 73 61 67 65 44 65 63 6f 64 65 72 2e 6a |MessageDecoder.j|
+|00000650| 61 76 61 71 00 7e 00 20 73 71 00 7e 00 10 00 00 |avaq.~. sq.~....|
+|00000660| 01 28 71 00 7e 00 31 71 00 7e 00 32 71 00 7e 00 |.(q.~.1q.~.2q.~.|
+|00000670| 19 73 71 00 7e 00 10 00 00 01 7b 71 00 7e 00 1b |.sq.~.....{q.~..|
+|00000680| 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 |q.~..q.~..sq.~..|
+|00000690| 00 00 01 6d 71 00 7e 00 1b 71 00 7e 00 1c 71 00 |...mq.~..q.~..q.|
+|000006a0| 7e 00 1d 73 71 00 7e 00 10 00 00 01 65 71 00 7e |~..sq.~.....eq.~|
+|000006b0| 00 1b 71 00 7e 00 1c 71 00 7e 00 20 73 71 00 7e |..q.~..q.~. sq.~|
+|000006c0| 00 10 00 00 05 82 74 00 33 69 6f 2e 6e 65 74 74 |......t.3io.nett|
+|000006d0| 79 2e 63 68 61 6e 6e 65 6c 2e 44 65 66 61 75 6c |y.channel.Defaul|
+|000006e0| 74 43 68 61 6e 6e 65 6c 50 69 70 65 6c 69 6e 65 |tChannelPipeline|
+|000006f0| 24 48 65 61 64 43 6f 6e 74 65 78 74 74 00 1b 44 |$HeadContextt..D|
+|00000700| 65 66 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 |efaultChannelPip|
+|00000710| 65 6c 69 6e 65 2e 6a 61 76 61 71 00 7e 00 19 73 |eline.javaq.~..s|
+|00000720| 71 00 7e 00 10 00 00 01 7b 71 00 7e 00 1b 71 00 |q.~.....{q.~..q.|
+|00000730| 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 00 00 |~..q.~..sq.~....|
+|00000740| 01 6d 71 00 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 |.mq.~..q.~..q.~.|
+|00000750| 1d 73 71 00 7e 00 10 00 00 03 97 74 00 27 69 6f |.sq.~......t.'io|
+|00000760| 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 44 |.netty.channel.D|
+|00000770| 65 66 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 |efaultChannelPip|
+|00000780| 65 6c 69 6e 65 71 00 7e 00 39 71 00 7e 00 20 73 |elineq.~.9q.~. s|
+|00000790| 71 00 7e 00 10 00 00 00 a6 74 00 39 69 6f 2e 6e |q.~......t.9io.n|
+|000007a0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 6e 69 6f |etty.channel.nio|
+|000007b0| 2e 41 62 73 74 72 61 63 74 4e 69 6f 42 79 74 65 |.AbstractNioByte|
+|000007c0| 43 68 61 6e 6e 65 6c 24 4e 69 6f 42 79 74 65 55 |Channel$NioByteU|
+|000007d0| 6e 73 61 66 65 74 00 1b 41 62 73 74 72 61 63 74 |nsafet..Abstract|
+|000007e0| 4e 69 6f 42 79 74 65 43 68 61 6e 6e 65 6c 2e 6a |NioByteChannel.j|
+|000007f0| 61 76 61 74 00 04 72 65 61 64 73 71 00 7e 00 10 |avat..readsq.~..|
+|00000800| 00 00 02 cf 74 00 21 69 6f 2e 6e 65 74 74 79 2e |....t.!io.netty.|
+|00000810| 63 68 61 6e 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f 45 |channel.nio.NioE|
+|00000820| 76 65 6e 74 4c 6f 6f 70 74 00 11 4e 69 6f 45 76 |ventLoopt..NioEv|
+|00000830| 65 6e 74 4c 6f 6f 70 2e 6a 61 76 61 74 00 12 70 |entLoop.javat..p|
+|00000840| 72 6f 63 65 73 73 53 65 6c 65 63 74 65 64 4b 65 |rocessSelectedKe|
+|00000850| 79 73 71 00 7e 00 10 00 00 02 8f 71 00 7e 00 43 |ysq.~......q.~.C|
+|00000860| 71 00 7e 00 44 74 00 1c 70 72 6f 63 65 73 73 53 |q.~.Dt..processS|
+|00000870| 65 6c 65 63 74 65 64 4b 65 79 73 4f 70 74 69 6d |electedKeysOptim|
+|00000880| 69 7a 65 64 73 71 00 7e 00 10 00 00 02 45 71 00 |izedsq.~.....Eq.|
+|00000890| 7e 00 43 71 00 7e 00 44 74 00 13 70 72 6f 63 65 |~.Cq.~.Dt..proce|
+|000008a0| 73 73 53 65 6c 65 63 74 65 64 4b 65 79 73 73 71 |ssSelectedKeyssq|
+|000008b0| 00 7e 00 10 00 00 01 ed 71 00 7e 00 43 71 00 7e |.~......q.~.Cq.~|
+|000008c0| 00 44 74 00 03 72 75 6e 73 71 00 7e 00 10 00 00 |.Dt..runsq.~....|
+|000008d0| 03 dd 74 00 34 69 6f 2e 6e 65 74 74 79 2e 75 74 |..t.4io.netty.ut|
+|000008e0| 69 6c 2e 63 6f 6e 63 75 72 72 65 6e 74 2e 53 69 |il.concurrent.Si|
+|000008f0| 6e 67 6c 65 54 68 72 65 61 64 45 76 65 6e 74 45 |ngleThreadEventE|
+|00000900| 78 65 63 75 74 6f 72 24 34 74 00 1e 53 69 6e 67 |xecutor$4t..Sing|
+|00000910| 6c 65 54 68 72 65 61 64 45 76 65 6e 74 45 78 65 |leThreadEventExe|
+|00000920| 63 75 74 6f 72 2e 6a 61 76 61 71 00 7e 00 4b 73 |cutor.javaq.~.Ks|
+|00000930| 71 00 7e 00 10 00 00 00 4a 74 00 2a 69 6f 2e 6e |q.~.....Jt.*io.n|
+|00000940| 65 74 74 79 2e 75 74 69 6c 2e 69 6e 74 65 72 6e |etty.util.intern|
+|00000950| 61 6c 2e 54 68 72 65 61 64 45 78 65 63 75 74 6f |al.ThreadExecuto|
+|00000960| 72 4d 61 70 24 32 74 00 16 54 68 72 65 61 64 45 |rMap$2t..ThreadE|
+|00000970| 78 65 63 75 74 6f 72 4d 61 70 2e 6a 61 76 61 71 |xecutorMap.javaq|
+|00000980| 00 7e 00 4b 73 71 00 7e 00 10 00 00 00 1e 74 00 |.~.Ksq.~......t.|
+|00000990| 30 69 6f 2e 6e 65 74 74 79 2e 75 74 69 6c 2e 63 |0io.netty.util.c|
+|000009a0| 6f 6e 63 75 72 72 65 6e 74 2e 46 61 73 74 54 68 |oncurrent.FastTh|
+|000009b0| 72 65 61 64 4c 6f 63 61 6c 52 75 6e 6e 61 62 6c |readLocalRunnabl|
+|000009c0| 65 74 00 1c 46 61 73 74 54 68 72 65 61 64 4c 6f |et..FastThreadLo|
+|000009d0| 63 61 6c 52 75 6e 6e 61 62 6c 65 2e 6a 61 76 61 |calRunnable.java|
+|000009e0| 71 00 7e 00 4b 73 71 00 7e 00 10 00 00 02 ec 74 |q.~.Ksq.~......t|
+|000009f0| 00 10 6a 61 76 61 2e 6c 61 6e 67 2e 54 68 72 65 |..java.lang.Thre|
+|00000a00| 61 64 74 00 0b 54 68 72 65 61 64 2e 6a 61 76 61 |adt..Thread.java|
+|00000a10| 71 00 7e 00 4b 73 72 00 26 6a 61 76 61 2e 75 74 |q.~.Ksr.&java.ut|
+|00000a20| 69 6c 2e 43 6f 6c 6c 65 63 74 69 6f 6e 73 24 55 |il.Collections$U|
+|00000a30| 6e 6d 6f 64 69 66 69 61 62 6c 65 4c 69 73 74 fc |nmodifiableList.|
+|00000a40| 0f 25 31 b5 ec 8e 10 02 00 01 4c 00 04 6c 69 73 |.%1.......L..lis|
+|00000a50| 74 71 00 7e 00 0c 78 72 00 2c 6a 61 76 61 2e 75 |tq.~..xr.,java.u|
+|00000a60| 74 69 6c 2e 43 6f 6c 6c 65 63 74 69 6f 6e 73 24 |til.Collections$|
+|00000a70| 55 6e 6d 6f 64 69 66 69 61 62 6c 65 43 6f 6c 6c |UnmodifiableColl|
+|00000a80| 65 63 74 69 6f 6e 19 42 00 80 cb 5e f7 1e 02 00 |ection.B...^....|
+|00000a90| 01 4c 00 01 63 74 00 16 4c 6a 61 76 61 2f 75 74 |.L..ct..Ljava/ut|
+|00000aa0| 69 6c 2f 43 6f 6c 6c 65 63 74 69 6f 6e 3b 78 70 |il/Collection;xp|
+|00000ab0| 73 72 00 13 6a 61 76 61 2e 75 74 69 6c 2e 41 72 |sr..java.util.Ar|
+|00000ac0| 72 61 79 4c 69 73 74 78 81 d2 1d 99 c7 61 9d 03 |rayListx.....a..|
+|00000ad0| 00 01 49 00 04 73 69 7a 65 78 70 00 00 00 00 77 |..I..sizexp....w|
+|00000ae0| 04 00 00 00 00 78 71 00 7e 00 5d 78 70          |.....xq.~.]xp   |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:28:02 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa1bd3dbf, L:/127.0.0.1:9999 - R:/127.0.0.1:51575] FLUSH
+2024-04-03 10:28:02 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa1bd3dbf, L:/127.0.0.1:9999 - R:/127.0.0.1:51575] READ COMPLETE
+2024-04-03 10:28:02 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 - R:localhost/127.0.0.1:9999] EXCEPTION: io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 2797 - discarded
+io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 2797 - discarded
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.fail(LengthFieldBasedFrameDecoder.java:503)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.failIfNecessary(LengthFieldBasedFrameDecoder.java:489)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.exceededFrameLength(LengthFieldBasedFrameDecoder.java:376)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:419)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:332)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:508)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:447)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:28:02 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:28:08 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:28:08 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 - R:localhost/127.0.0.1:9999] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:28:08 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 ! R:localhost/127.0.0.1:9999] INACTIVE
+2024-04-03 10:28:08 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32fb9013, L:/127.0.0.1:51575 ! R:localhost/127.0.0.1:9999] UNREGISTERED
+2024-04-03 10:28:17 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c] REGISTERED
+2024-04-03 10:28:17 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c] CONNECT: localhost/127.0.0.1:9999
+2024-04-03 10:28:17 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-04-03 10:28:17 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x73f97fd4, L:/127.0.0.1:9999 - R:/127.0.0.1:51751] REGISTERED
+2024-04-03 10:28:17 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x73f97fd4, L:/127.0.0.1:9999 - R:/127.0.0.1:51751] ACTIVE
+2024-04-03 10:28:17 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 - R:localhost/127.0.0.1:9999] WRITE: 489B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 65 00 00 00 01 ff 00 00 01 d9 |......e.........|
+|00000010| ac ed 00 05 73 72 00 23 63 6e 2e 69 74 63 61 73 |....sr.#cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 71 |t.message.RpcReq|
+|00000030| 75 65 73 74 4d 65 73 73 61 67 65 77 a9 15 85 09 |uestMessagew....|
+|00000040| 7f 73 45 02 00 05 4c 00 0d 69 6e 74 65 72 66 61 |.sE...L..interfa|
+|00000050| 63 65 4e 61 6d 65 74 00 12 4c 6a 61 76 61 2f 6c |ceNamet..Ljava/l|
+|00000060| 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 0a 6d 65 |ang/String;L..me|
+|00000070| 74 68 6f 64 4e 61 6d 65 71 00 7e 00 01 5b 00 0e |thodNameq.~..[..|
+|00000080| 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 74 00 |parameterTypest.|
+|00000090| 12 5b 4c 6a 61 76 61 2f 6c 61 6e 67 2f 43 6c 61 |.[Ljava/lang/Cla|
+|000000a0| 73 73 3b 5b 00 0e 70 61 72 61 6d 65 74 65 72 56 |ss;[..parameterV|
+|000000b0| 61 6c 75 65 74 00 13 5b 4c 6a 61 76 61 2f 6c 61 |aluet..[Ljava/la|
+|000000c0| 6e 67 2f 4f 62 6a 65 63 74 3b 4c 00 0a 72 65 74 |ng/Object;L..ret|
+|000000d0| 75 72 6e 54 79 70 65 74 00 11 4c 6a 61 76 61 2f |urnTypet..Ljava/|
+|000000e0| 6c 61 6e 67 2f 43 6c 61 73 73 3b 78 72 00 19 63 |lang/Class;xr..c|
+|000000f0| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|00000100| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|00000110| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|00000120| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000130| 00 00 00 00 00 00 00 01 74 00 25 63 6e 2e 69 74 |........t.%cn.it|
+|00000140| 63 61 73 74 2e 73 65 72 76 65 72 2e 73 65 72 76 |cast.server.serv|
+|00000150| 69 63 65 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 |ice.HelloService|
+|00000160| 74 00 08 73 61 79 48 65 6c 6c 6f 75 72 00 12 5b |t..sayHellour..[|
+|00000170| 4c 6a 61 76 61 2e 6c 61 6e 67 2e 43 6c 61 73 73 |Ljava.lang.Class|
+|00000180| 3b ab 16 d7 ae cb cd 5a 99 02 00 00 78 70 00 00 |;......Z....xp..|
+|00000190| 00 01 76 72 00 10 6a 61 76 61 2e 6c 61 6e 67 2e |..vr..java.lang.|
+|000001a0| 53 74 72 69 6e 67 a0 f0 a4 38 7a 3b b3 42 02 00 |String...8z;.B..|
+|000001b0| 00 78 70 75 72 00 13 5b 4c 6a 61 76 61 2e 6c 61 |.xpur..[Ljava.la|
+|000001c0| 6e 67 2e 4f 62 6a 65 63 74 3b 90 ce 58 9f 10 73 |ng.Object;..X..s|
+|000001d0| 29 6c 02 00 00 78 70 00 00 00 01 74 00 06 e5 bc |)l...xp....t....|
+|000001e0| a0 e4 b8 89 71 00 7e 00 0c                      |....q.~..       |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:28:17 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 - R:localhost/127.0.0.1:9999] FLUSH
+2024-04-03 10:28:17 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x73f97fd4, L:/127.0.0.1:9999 - R:/127.0.0.1:51751] READ: 489B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 65 00 00 00 01 ff 00 00 01 d9 |......e.........|
+|00000010| ac ed 00 05 73 72 00 23 63 6e 2e 69 74 63 61 73 |....sr.#cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 71 |t.message.RpcReq|
+|00000030| 75 65 73 74 4d 65 73 73 61 67 65 77 a9 15 85 09 |uestMessagew....|
+|00000040| 7f 73 45 02 00 05 4c 00 0d 69 6e 74 65 72 66 61 |.sE...L..interfa|
+|00000050| 63 65 4e 61 6d 65 74 00 12 4c 6a 61 76 61 2f 6c |ceNamet..Ljava/l|
+|00000060| 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 0a 6d 65 |ang/String;L..me|
+|00000070| 74 68 6f 64 4e 61 6d 65 71 00 7e 00 01 5b 00 0e |thodNameq.~..[..|
+|00000080| 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 74 00 |parameterTypest.|
+|00000090| 12 5b 4c 6a 61 76 61 2f 6c 61 6e 67 2f 43 6c 61 |.[Ljava/lang/Cla|
+|000000a0| 73 73 3b 5b 00 0e 70 61 72 61 6d 65 74 65 72 56 |ss;[..parameterV|
+|000000b0| 61 6c 75 65 74 00 13 5b 4c 6a 61 76 61 2f 6c 61 |aluet..[Ljava/la|
+|000000c0| 6e 67 2f 4f 62 6a 65 63 74 3b 4c 00 0a 72 65 74 |ng/Object;L..ret|
+|000000d0| 75 72 6e 54 79 70 65 74 00 11 4c 6a 61 76 61 2f |urnTypet..Ljava/|
+|000000e0| 6c 61 6e 67 2f 43 6c 61 73 73 3b 78 72 00 19 63 |lang/Class;xr..c|
+|000000f0| 6e 2e 69 74 63 61 73 74 2e 6d 65 73 73 61 67 65 |n.itcast.message|
+|00000100| 2e 4d 65 73 73 61 67 65 3d dd 19 a0 bc 07 47 cb |.Message=.....G.|
+|00000110| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|00000120| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000130| 00 00 00 00 00 00 00 01 74 00 25 63 6e 2e 69 74 |........t.%cn.it|
+|00000140| 63 61 73 74 2e 73 65 72 76 65 72 2e 73 65 72 76 |cast.server.serv|
+|00000150| 69 63 65 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 |ice.HelloService|
+|00000160| 74 00 08 73 61 79 48 65 6c 6c 6f 75 72 00 12 5b |t..sayHellour..[|
+|00000170| 4c 6a 61 76 61 2e 6c 61 6e 67 2e 43 6c 61 73 73 |Ljava.lang.Class|
+|00000180| 3b ab 16 d7 ae cb cd 5a 99 02 00 00 78 70 00 00 |;......Z....xp..|
+|00000190| 00 01 76 72 00 10 6a 61 76 61 2e 6c 61 6e 67 2e |..vr..java.lang.|
+|000001a0| 53 74 72 69 6e 67 a0 f0 a4 38 7a 3b b3 42 02 00 |String...8z;.B..|
+|000001b0| 00 78 70 75 72 00 13 5b 4c 6a 61 76 61 2e 6c 61 |.xpur..[Ljava.la|
+|000001c0| 6e 67 2e 4f 62 6a 65 63 74 3b 90 ce 58 9f 10 73 |ng.Object;..X..s|
+|000001d0| 29 6c 02 00 00 78 70 00 00 00 01 74 00 06 e5 bc |)l...xp....t....|
+|000001e0| a0 e4 b8 89 71 00 7e 00 0c                      |....q.~..       |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:28:17 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x73f97fd4, L:/127.0.0.1:9999 - R:/127.0.0.1:51751] WRITE: 2797B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 66 00 00 00 00 ff 00 00 0a dd |......f.........|
+|00000010| ac ed 00 05 73 72 00 24 63 6e 2e 69 74 63 61 73 |....sr.$cn.itcas|
+|00000020| 74 2e 6d 65 73 73 61 67 65 2e 52 70 63 52 65 73 |t.message.RpcRes|
+|00000030| 70 6f 6e 73 65 4d 65 73 73 61 67 65 ae f6 35 ad |ponseMessage..5.|
+|00000040| 01 3f 01 e8 02 00 02 4c 00 0e 65 78 63 65 70 74 |.?.....L..except|
+|00000050| 69 6f 6e 56 61 6c 75 65 74 00 15 4c 6a 61 76 61 |ionValuet..Ljava|
+|00000060| 2f 6c 61 6e 67 2f 45 78 63 65 70 74 69 6f 6e 3b |/lang/Exception;|
+|00000070| 4c 00 0b 72 65 74 75 72 6e 56 61 6c 75 65 74 00 |L..returnValuet.|
+|00000080| 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 4f 62 6a 65 |.Ljava/lang/Obje|
+|00000090| 63 74 3b 78 72 00 19 63 6e 2e 69 74 63 61 73 74 |ct;xr..cn.itcast|
+|000000a0| 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 65 |.message.Message|
+|000000b0| 3d dd 19 a0 bc 07 47 cb 02 00 02 49 00 0b 6d 65 |=.....G....I..me|
+|000000c0| 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 75 |ssageTypeI..sequ|
+|000000d0| 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 00 |enceIdxp........|
+|000000e0| 73 72 00 1e 6a 61 76 61 2e 6c 61 6e 67 2e 4e 75 |sr..java.lang.Nu|
+|000000f0| 6c 6c 50 6f 69 6e 74 65 72 45 78 63 65 70 74 69 |llPointerExcepti|
+|00000100| 6f 6e 47 a5 a1 8e ff 31 e1 b8 02 00 00 78 72 00 |onG....1.....xr.|
+|00000110| 1a 6a 61 76 61 2e 6c 61 6e 67 2e 52 75 6e 74 69 |.java.lang.Runti|
+|00000120| 6d 65 45 78 63 65 70 74 69 6f 6e 9e 5f 06 47 0a |meException._.G.|
+|00000130| 34 83 e5 02 00 00 78 72 00 13 6a 61 76 61 2e 6c |4.....xr..java.l|
+|00000140| 61 6e 67 2e 45 78 63 65 70 74 69 6f 6e d0 fd 1f |ang.Exception...|
+|00000150| 3e 1a 3b 1c c4 02 00 00 78 72 00 13 6a 61 76 61 |>.;.....xr..java|
+|00000160| 2e 6c 61 6e 67 2e 54 68 72 6f 77 61 62 6c 65 d5 |.lang.Throwable.|
+|00000170| c6 35 27 39 77 b8 cb 03 00 04 4c 00 05 63 61 75 |.5'9w.....L..cau|
+|00000180| 73 65 74 00 15 4c 6a 61 76 61 2f 6c 61 6e 67 2f |set..Ljava/lang/|
+|00000190| 54 68 72 6f 77 61 62 6c 65 3b 4c 00 0d 64 65 74 |Throwable;L..det|
+|000001a0| 61 69 6c 4d 65 73 73 61 67 65 74 00 12 4c 6a 61 |ailMessaget..Lja|
+|000001b0| 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 5b |va/lang/String;[|
+|000001c0| 00 0a 73 74 61 63 6b 54 72 61 63 65 74 00 1e 5b |..stackTracet..[|
+|000001d0| 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 61 63 6b |Ljava/lang/Stack|
+|000001e0| 54 72 61 63 65 45 6c 65 6d 65 6e 74 3b 4c 00 14 |TraceElement;L..|
+|000001f0| 73 75 70 70 72 65 73 73 65 64 45 78 63 65 70 74 |suppressedExcept|
+|00000200| 69 6f 6e 73 74 00 10 4c 6a 61 76 61 2f 75 74 69 |ionst..Ljava/uti|
+|00000210| 6c 2f 4c 69 73 74 3b 78 70 71 00 7e 00 0d 70 75 |l/List;xpq.~..pu|
+|00000220| 72 00 1e 5b 4c 6a 61 76 61 2e 6c 61 6e 67 2e 53 |r..[Ljava.lang.S|
+|00000230| 74 61 63 6b 54 72 61 63 65 45 6c 65 6d 65 6e 74 |tackTraceElement|
+|00000240| 3b 02 46 2a 3c 3c fd 22 39 02 00 00 78 70 00 00 |;.F*<<."9...xp..|
+|00000250| 00 21 73 72 00 1b 6a 61 76 61 2e 6c 61 6e 67 2e |.!sr..java.lang.|
+|00000260| 53 74 61 63 6b 54 72 61 63 65 45 6c 65 6d 65 6e |StackTraceElemen|
+|00000270| 74 61 09 c5 9a 26 36 dd 85 02 00 04 49 00 0a 6c |ta...&6.....I..l|
+|00000280| 69 6e 65 4e 75 6d 62 65 72 4c 00 0e 64 65 63 6c |ineNumberL..decl|
+|00000290| 61 72 69 6e 67 43 6c 61 73 73 71 00 7e 00 0a 4c |aringClassq.~..L|
+|000002a0| 00 08 66 69 6c 65 4e 61 6d 65 71 00 7e 00 0a 4c |..fileNameq.~..L|
+|000002b0| 00 0a 6d 65 74 68 6f 64 4e 61 6d 65 71 00 7e 00 |..methodNameq.~.|
+|000002c0| 0a 78 70 00 00 00 21 74 00 31 63 6e 2e 69 74 63 |.xp...!t.1cn.itc|
+|000002d0| 61 73 74 2e 73 65 72 76 65 72 2e 68 61 6e 64 6c |ast.server.handl|
+|000002e0| 65 72 2e 52 70 63 52 65 71 75 65 73 74 4d 65 73 |er.RpcRequestMes|
+|000002f0| 73 61 67 65 48 61 6e 64 6c 65 72 74 00 1d 52 70 |sageHandlert..Rp|
+|00000300| 63 52 65 71 75 65 73 74 4d 65 73 73 61 67 65 48 |cRequestMessageH|
+|00000310| 61 6e 64 6c 65 72 2e 6a 61 76 61 74 00 0c 63 68 |andler.javat..ch|
+|00000320| 61 6e 6e 65 6c 52 65 61 64 30 73 71 00 7e 00 10 |annelRead0sq.~..|
+|00000330| 00 00 00 14 71 00 7e 00 12 71 00 7e 00 13 71 00 |....q.~..q.~..q.|
+|00000340| 7e 00 14 73 71 00 7e 00 10 00 00 00 63 74 00 2c |~..sq.~.....ct.,|
+|00000350| 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c |io.netty.channel|
+|00000360| 2e 53 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e |.SimpleChannelIn|
+|00000370| 62 6f 75 6e 64 48 61 6e 64 6c 65 72 74 00 20 53 |boundHandlert. S|
+|00000380| 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e 62 6f |impleChannelInbo|
+|00000390| 75 6e 64 48 61 6e 64 6c 65 72 2e 6a 61 76 61 74 |undHandler.javat|
+|000003a0| 00 0b 63 68 61 6e 6e 65 6c 52 65 61 64 73 71 00 |..channelReadsq.|
+|000003b0| 7e 00 10 00 00 01 7b 74 00 2e 69 6f 2e 6e 65 74 |~.....{t..io.net|
+|000003c0| 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 |ty.channel.Abstr|
+|000003d0| 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 |actChannelHandle|
+|000003e0| 72 43 6f 6e 74 65 78 74 74 00 22 41 62 73 74 72 |rContextt."Abstr|
+|000003f0| 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 |actChannelHandle|
+|00000400| 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 74 00 11 |rContext.javat..|
+|00000410| 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 |invokeChannelRea|
+|00000420| 64 73 71 00 7e 00 10 00 00 01 6d 71 00 7e 00 1b |dsq.~.....mq.~..|
+|00000430| 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 |q.~..q.~..sq.~..|
+|00000440| 00 00 01 65 71 00 7e 00 1b 71 00 7e 00 1c 74 00 |...eq.~..q.~..t.|
+|00000450| 0f 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 |.fireChannelRead|
+|00000460| 73 71 00 7e 00 10 00 00 00 67 74 00 2e 69 6f 2e |sq.~.....gt..io.|
+|00000470| 6e 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f |netty.handler.co|
+|00000480| 64 65 63 2e 4d 65 73 73 61 67 65 54 6f 4d 65 73 |dec.MessageToMes|
+|00000490| 73 61 67 65 44 65 63 6f 64 65 72 74 00 1c 4d 65 |sageDecodert..Me|
+|000004a0| 73 73 61 67 65 54 6f 4d 65 73 73 61 67 65 44 65 |ssageToMessageDe|
+|000004b0| 63 6f 64 65 72 2e 6a 61 76 61 71 00 7e 00 19 73 |coder.javaq.~..s|
+|000004c0| 71 00 7e 00 10 00 00 00 6f 74 00 2c 69 6f 2e 6e |q.~.....ot.,io.n|
+|000004d0| 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 |etty.handler.cod|
+|000004e0| 65 63 2e 4d 65 73 73 61 67 65 54 6f 4d 65 73 73 |ec.MessageToMess|
+|000004f0| 61 67 65 43 6f 64 65 63 74 00 1a 4d 65 73 73 61 |ageCodect..Messa|
+|00000500| 67 65 54 6f 4d 65 73 73 61 67 65 43 6f 64 65 63 |geToMessageCodec|
+|00000510| 2e 6a 61 76 61 71 00 7e 00 19 73 71 00 7e 00 10 |.javaq.~..sq.~..|
+|00000520| 00 00 01 7b 71 00 7e 00 1b 71 00 7e 00 1c 71 00 |...{q.~..q.~..q.|
+|00000530| 7e 00 1d 73 71 00 7e 00 10 00 00 01 6d 71 00 7e |~..sq.~.....mq.~|
+|00000540| 00 1b 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e |..q.~..q.~..sq.~|
+|00000550| 00 10 00 00 01 65 71 00 7e 00 1b 71 00 7e 00 1c |.....eq.~..q.~..|
+|00000560| 71 00 7e 00 20 73 71 00 7e 00 10 00 00 01 0f 74 |q.~. sq.~......t|
+|00000570| 00 27 69 6f 2e 6e 65 74 74 79 2e 68 61 6e 64 6c |.'io.netty.handl|
+|00000580| 65 72 2e 6c 6f 67 67 69 6e 67 2e 4c 6f 67 67 69 |er.logging.Loggi|
+|00000590| 6e 67 48 61 6e 64 6c 65 72 74 00 13 4c 6f 67 67 |ngHandlert..Logg|
+|000005a0| 69 6e 67 48 61 6e 64 6c 65 72 2e 6a 61 76 61 71 |ingHandler.javaq|
+|000005b0| 00 7e 00 19 73 71 00 7e 00 10 00 00 01 7b 71 00 |.~..sq.~.....{q.|
+|000005c0| 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 |~..q.~..q.~..sq.|
+|000005d0| 7e 00 10 00 00 01 6d 71 00 7e 00 1b 71 00 7e 00 |~.....mq.~..q.~.|
+|000005e0| 1c 71 00 7e 00 1d 73 71 00 7e 00 10 00 00 01 65 |.q.~..sq.~.....e|
+|000005f0| 71 00 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 20 73 |q.~..q.~..q.~. s|
+|00000600| 71 00 7e 00 10 00 00 01 44 74 00 2b 69 6f 2e 6e |q.~.....Dt.+io.n|
+|00000610| 65 74 74 79 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 |etty.handler.cod|
+|00000620| 65 63 2e 42 79 74 65 54 6f 4d 65 73 73 61 67 65 |ec.ByteToMessage|
+|00000630| 44 65 63 6f 64 65 72 74 00 19 42 79 74 65 54 6f |Decodert..ByteTo|
+|00000640| 4d 65 73 73 61 67 65 44 65 63 6f 64 65 72 2e 6a |MessageDecoder.j|
+|00000650| 61 76 61 71 00 7e 00 20 73 71 00 7e 00 10 00 00 |avaq.~. sq.~....|
+|00000660| 01 28 71 00 7e 00 31 71 00 7e 00 32 71 00 7e 00 |.(q.~.1q.~.2q.~.|
+|00000670| 19 73 71 00 7e 00 10 00 00 01 7b 71 00 7e 00 1b |.sq.~.....{q.~..|
+|00000680| 71 00 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 |q.~..q.~..sq.~..|
+|00000690| 00 00 01 6d 71 00 7e 00 1b 71 00 7e 00 1c 71 00 |...mq.~..q.~..q.|
+|000006a0| 7e 00 1d 73 71 00 7e 00 10 00 00 01 65 71 00 7e |~..sq.~.....eq.~|
+|000006b0| 00 1b 71 00 7e 00 1c 71 00 7e 00 20 73 71 00 7e |..q.~..q.~. sq.~|
+|000006c0| 00 10 00 00 05 82 74 00 33 69 6f 2e 6e 65 74 74 |......t.3io.nett|
+|000006d0| 79 2e 63 68 61 6e 6e 65 6c 2e 44 65 66 61 75 6c |y.channel.Defaul|
+|000006e0| 74 43 68 61 6e 6e 65 6c 50 69 70 65 6c 69 6e 65 |tChannelPipeline|
+|000006f0| 24 48 65 61 64 43 6f 6e 74 65 78 74 74 00 1b 44 |$HeadContextt..D|
+|00000700| 65 66 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 |efaultChannelPip|
+|00000710| 65 6c 69 6e 65 2e 6a 61 76 61 71 00 7e 00 19 73 |eline.javaq.~..s|
+|00000720| 71 00 7e 00 10 00 00 01 7b 71 00 7e 00 1b 71 00 |q.~.....{q.~..q.|
+|00000730| 7e 00 1c 71 00 7e 00 1d 73 71 00 7e 00 10 00 00 |~..q.~..sq.~....|
+|00000740| 01 6d 71 00 7e 00 1b 71 00 7e 00 1c 71 00 7e 00 |.mq.~..q.~..q.~.|
+|00000750| 1d 73 71 00 7e 00 10 00 00 03 97 74 00 27 69 6f |.sq.~......t.'io|
+|00000760| 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 44 |.netty.channel.D|
+|00000770| 65 66 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 |efaultChannelPip|
+|00000780| 65 6c 69 6e 65 71 00 7e 00 39 71 00 7e 00 20 73 |elineq.~.9q.~. s|
+|00000790| 71 00 7e 00 10 00 00 00 a6 74 00 39 69 6f 2e 6e |q.~......t.9io.n|
+|000007a0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 6e 69 6f |etty.channel.nio|
+|000007b0| 2e 41 62 73 74 72 61 63 74 4e 69 6f 42 79 74 65 |.AbstractNioByte|
+|000007c0| 43 68 61 6e 6e 65 6c 24 4e 69 6f 42 79 74 65 55 |Channel$NioByteU|
+|000007d0| 6e 73 61 66 65 74 00 1b 41 62 73 74 72 61 63 74 |nsafet..Abstract|
+|000007e0| 4e 69 6f 42 79 74 65 43 68 61 6e 6e 65 6c 2e 6a |NioByteChannel.j|
+|000007f0| 61 76 61 74 00 04 72 65 61 64 73 71 00 7e 00 10 |avat..readsq.~..|
+|00000800| 00 00 02 cf 74 00 21 69 6f 2e 6e 65 74 74 79 2e |....t.!io.netty.|
+|00000810| 63 68 61 6e 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f 45 |channel.nio.NioE|
+|00000820| 76 65 6e 74 4c 6f 6f 70 74 00 11 4e 69 6f 45 76 |ventLoopt..NioEv|
+|00000830| 65 6e 74 4c 6f 6f 70 2e 6a 61 76 61 74 00 12 70 |entLoop.javat..p|
+|00000840| 72 6f 63 65 73 73 53 65 6c 65 63 74 65 64 4b 65 |rocessSelectedKe|
+|00000850| 79 73 71 00 7e 00 10 00 00 02 8f 71 00 7e 00 43 |ysq.~......q.~.C|
+|00000860| 71 00 7e 00 44 74 00 1c 70 72 6f 63 65 73 73 53 |q.~.Dt..processS|
+|00000870| 65 6c 65 63 74 65 64 4b 65 79 73 4f 70 74 69 6d |electedKeysOptim|
+|00000880| 69 7a 65 64 73 71 00 7e 00 10 00 00 02 45 71 00 |izedsq.~.....Eq.|
+|00000890| 7e 00 43 71 00 7e 00 44 74 00 13 70 72 6f 63 65 |~.Cq.~.Dt..proce|
+|000008a0| 73 73 53 65 6c 65 63 74 65 64 4b 65 79 73 73 71 |ssSelectedKeyssq|
+|000008b0| 00 7e 00 10 00 00 01 ed 71 00 7e 00 43 71 00 7e |.~......q.~.Cq.~|
+|000008c0| 00 44 74 00 03 72 75 6e 73 71 00 7e 00 10 00 00 |.Dt..runsq.~....|
+|000008d0| 03 dd 74 00 34 69 6f 2e 6e 65 74 74 79 2e 75 74 |..t.4io.netty.ut|
+|000008e0| 69 6c 2e 63 6f 6e 63 75 72 72 65 6e 74 2e 53 69 |il.concurrent.Si|
+|000008f0| 6e 67 6c 65 54 68 72 65 61 64 45 76 65 6e 74 45 |ngleThreadEventE|
+|00000900| 78 65 63 75 74 6f 72 24 34 74 00 1e 53 69 6e 67 |xecutor$4t..Sing|
+|00000910| 6c 65 54 68 72 65 61 64 45 76 65 6e 74 45 78 65 |leThreadEventExe|
+|00000920| 63 75 74 6f 72 2e 6a 61 76 61 71 00 7e 00 4b 73 |cutor.javaq.~.Ks|
+|00000930| 71 00 7e 00 10 00 00 00 4a 74 00 2a 69 6f 2e 6e |q.~.....Jt.*io.n|
+|00000940| 65 74 74 79 2e 75 74 69 6c 2e 69 6e 74 65 72 6e |etty.util.intern|
+|00000950| 61 6c 2e 54 68 72 65 61 64 45 78 65 63 75 74 6f |al.ThreadExecuto|
+|00000960| 72 4d 61 70 24 32 74 00 16 54 68 72 65 61 64 45 |rMap$2t..ThreadE|
+|00000970| 78 65 63 75 74 6f 72 4d 61 70 2e 6a 61 76 61 71 |xecutorMap.javaq|
+|00000980| 00 7e 00 4b 73 71 00 7e 00 10 00 00 00 1e 74 00 |.~.Ksq.~......t.|
+|00000990| 30 69 6f 2e 6e 65 74 74 79 2e 75 74 69 6c 2e 63 |0io.netty.util.c|
+|000009a0| 6f 6e 63 75 72 72 65 6e 74 2e 46 61 73 74 54 68 |oncurrent.FastTh|
+|000009b0| 72 65 61 64 4c 6f 63 61 6c 52 75 6e 6e 61 62 6c |readLocalRunnabl|
+|000009c0| 65 74 00 1c 46 61 73 74 54 68 72 65 61 64 4c 6f |et..FastThreadLo|
+|000009d0| 63 61 6c 52 75 6e 6e 61 62 6c 65 2e 6a 61 76 61 |calRunnable.java|
+|000009e0| 71 00 7e 00 4b 73 71 00 7e 00 10 00 00 02 ec 74 |q.~.Ksq.~......t|
+|000009f0| 00 10 6a 61 76 61 2e 6c 61 6e 67 2e 54 68 72 65 |..java.lang.Thre|
+|00000a00| 61 64 74 00 0b 54 68 72 65 61 64 2e 6a 61 76 61 |adt..Thread.java|
+|00000a10| 71 00 7e 00 4b 73 72 00 26 6a 61 76 61 2e 75 74 |q.~.Ksr.&java.ut|
+|00000a20| 69 6c 2e 43 6f 6c 6c 65 63 74 69 6f 6e 73 24 55 |il.Collections$U|
+|00000a30| 6e 6d 6f 64 69 66 69 61 62 6c 65 4c 69 73 74 fc |nmodifiableList.|
+|00000a40| 0f 25 31 b5 ec 8e 10 02 00 01 4c 00 04 6c 69 73 |.%1.......L..lis|
+|00000a50| 74 71 00 7e 00 0c 78 72 00 2c 6a 61 76 61 2e 75 |tq.~..xr.,java.u|
+|00000a60| 74 69 6c 2e 43 6f 6c 6c 65 63 74 69 6f 6e 73 24 |til.Collections$|
+|00000a70| 55 6e 6d 6f 64 69 66 69 61 62 6c 65 43 6f 6c 6c |UnmodifiableColl|
+|00000a80| 65 63 74 69 6f 6e 19 42 00 80 cb 5e f7 1e 02 00 |ection.B...^....|
+|00000a90| 01 4c 00 01 63 74 00 16 4c 6a 61 76 61 2f 75 74 |.L..ct..Ljava/ut|
+|00000aa0| 69 6c 2f 43 6f 6c 6c 65 63 74 69 6f 6e 3b 78 70 |il/Collection;xp|
+|00000ab0| 73 72 00 13 6a 61 76 61 2e 75 74 69 6c 2e 41 72 |sr..java.util.Ar|
+|00000ac0| 72 61 79 4c 69 73 74 78 81 d2 1d 99 c7 61 9d 03 |rayListx.....a..|
+|00000ad0| 00 01 49 00 04 73 69 7a 65 78 70 00 00 00 00 77 |..I..sizexp....w|
+|00000ae0| 04 00 00 00 00 78 71 00 7e 00 5d 78 70          |.....xq.~.]xp   |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:28:17 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x73f97fd4, L:/127.0.0.1:9999 - R:/127.0.0.1:51751] FLUSH
+2024-04-03 10:28:17 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x73f97fd4, L:/127.0.0.1:9999 - R:/127.0.0.1:51751] READ COMPLETE
+2024-04-03 10:28:17 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 - R:localhost/127.0.0.1:9999] EXCEPTION: io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 2797 - discarded
+io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 2797 - discarded
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.fail(LengthFieldBasedFrameDecoder.java:503)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.failIfNecessary(LengthFieldBasedFrameDecoder.java:489)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.exceededFrameLength(LengthFieldBasedFrameDecoder.java:376)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:419)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:332)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:508)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:447)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:28:17 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:32:05 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:32:05 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 - R:localhost/127.0.0.1:9999] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:32:05 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 ! R:localhost/127.0.0.1:9999] INACTIVE
+2024-04-03 10:32:05 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x88d0c46c, L:/127.0.0.1:51751 ! R:localhost/127.0.0.1:9999] UNREGISTERED
+2024-04-03 10:44:23 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1b206d12] REGISTERED
+2024-04-03 10:44:23 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1b206d12] CONNECT: localhost/127.0.0.1:9999
+2024-04-03 10:44:23 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1b206d12, L:/127.0.0.1:55323 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-04-03 10:44:23 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 - R:/127.0.0.1:55323] REGISTERED
+2024-04-03 10:44:23 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 - R:/127.0.0.1:55323] ACTIVE
+2024-04-03 10:44:23 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1b206d12, L:/127.0.0.1:55323 - R:localhost/127.0.0.1:9999] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:44:23 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1b206d12, L:/127.0.0.1:55323 - R:localhost/127.0.0.1:9999] FLUSH
+2024-04-03 10:44:23 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 - R:/127.0.0.1:55323] READ: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:44:23 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 - R:/127.0.0.1:55323] WRITE: 79B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 00 3f |......f........?|
+|00000010| 7b 22 72 65 74 75 72 6e 56 61 6c 75 65 22 3a 22 |{"returnValue":"|
+|00000020| e4 bd a0 e5 a5 bd 2c 20 e5 bc a0 e4 b8 89 22 2c |......, ......",|
+|00000030| 22 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 |"sequenceId":0,"|
+|00000040| 6d 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d    |messageType":0} |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:44:23 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 - R:/127.0.0.1:55323] FLUSH
+2024-04-03 10:44:23 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 - R:/127.0.0.1:55323] READ COMPLETE
+2024-04-03 10:44:23 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1b206d12, L:/127.0.0.1:55323 - R:localhost/127.0.0.1:9999] READ: 79B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 00 3f |......f........?|
+|00000010| 7b 22 72 65 74 75 72 6e 56 61 6c 75 65 22 3a 22 |{"returnValue":"|
+|00000020| e4 bd a0 e5 a5 bd 2c 20 e5 bc a0 e4 b8 89 22 2c |......, ......",|
+|00000030| 22 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 |"sequenceId":0,"|
+|00000040| 6d 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d    |messageType":0} |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:44:23 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x1b206d12, L:/127.0.0.1:55323 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:45:29 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 - R:/127.0.0.1:55323] READ COMPLETE
+2024-04-03 10:45:29 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 - R:/127.0.0.1:55323] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:45:29 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 ! R:/127.0.0.1:55323] INACTIVE
+2024-04-03 10:45:29 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x62efa354, L:/127.0.0.1:9999 ! R:/127.0.0.1:55323] UNREGISTERED
+2024-04-03 10:45:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e] REGISTERED
+2024-04-03 10:45:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e] CONNECT: localhost/127.0.0.1:9999
+2024-04-03 10:45:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-04-03 10:45:34 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaf840319, L:/127.0.0.1:9999 - R:/127.0.0.1:55593] REGISTERED
+2024-04-03 10:45:34 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaf840319, L:/127.0.0.1:9999 - R:/127.0.0.1:55593] ACTIVE
+2024-04-03 10:45:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 - R:localhost/127.0.0.1:9999] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:45:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 - R:localhost/127.0.0.1:9999] FLUSH
+2024-04-03 10:45:34 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaf840319, L:/127.0.0.1:9999 - R:/127.0.0.1:55593] READ: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:45:34 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaf840319, L:/127.0.0.1:9999 - R:/127.0.0.1:55593] WRITE: 79B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 00 3f |......f........?|
+|00000010| 7b 22 72 65 74 75 72 6e 56 61 6c 75 65 22 3a 22 |{"returnValue":"|
+|00000020| e4 bd a0 e5 a5 bd 2c 20 e5 bc a0 e4 b8 89 22 2c |......, ......",|
+|00000030| 22 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 |"sequenceId":0,"|
+|00000040| 6d 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d    |messageType":0} |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:45:34 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaf840319, L:/127.0.0.1:9999 - R:/127.0.0.1:55593] FLUSH
+2024-04-03 10:45:34 [nioEventLoopGroup-3-2] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xaf840319, L:/127.0.0.1:9999 - R:/127.0.0.1:55593] READ COMPLETE
+2024-04-03 10:45:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 - R:localhost/127.0.0.1:9999] READ: 79B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 00 3f |......f........?|
+|00000010| 7b 22 72 65 74 75 72 6e 56 61 6c 75 65 22 3a 22 |{"returnValue":"|
+|00000020| e4 bd a0 e5 a5 bd 2c 20 e5 bc a0 e4 b8 89 22 2c |......, ......",|
+|00000030| 22 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 |"sequenceId":0,"|
+|00000040| 6d 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d    |messageType":0} |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:45:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:55:18 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:55:18 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 - R:localhost/127.0.0.1:9999] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:55:18 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 ! R:localhost/127.0.0.1:9999] INACTIVE
+2024-04-03 10:55:18 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xc1d70d2e, L:/127.0.0.1:55593 ! R:localhost/127.0.0.1:9999] UNREGISTERED
+2024-04-03 10:55:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xee70e439] REGISTERED
+2024-04-03 10:55:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xee70e439] CONNECT: localhost/127.0.0.1:9999
+2024-04-03 10:55:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xee70e439, L:/127.0.0.1:63568 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-04-03 10:55:34 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 - R:/127.0.0.1:63568] REGISTERED
+2024-04-03 10:55:34 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 - R:/127.0.0.1:63568] ACTIVE
+2024-04-03 10:55:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xee70e439, L:/127.0.0.1:63568 - R:localhost/127.0.0.1:9999] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:55:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xee70e439, L:/127.0.0.1:63568 - R:localhost/127.0.0.1:9999] FLUSH
+2024-04-03 10:55:34 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 - R:/127.0.0.1:63568] READ: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:55:34 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 - R:/127.0.0.1:63568] WRITE: 79B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 00 3f |......f........?|
+|00000010| 7b 22 72 65 74 75 72 6e 56 61 6c 75 65 22 3a 22 |{"returnValue":"|
+|00000020| e4 bd a0 e5 a5 bd 2c 20 e5 bc a0 e4 b8 89 22 2c |......, ......",|
+|00000030| 22 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 |"sequenceId":0,"|
+|00000040| 6d 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d    |messageType":0} |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:55:34 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 - R:/127.0.0.1:63568] FLUSH
+2024-04-03 10:55:34 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 - R:/127.0.0.1:63568] READ COMPLETE
+2024-04-03 10:55:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xee70e439, L:/127.0.0.1:63568 - R:localhost/127.0.0.1:9999] READ: 79B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 00 3f |......f........?|
+|00000010| 7b 22 72 65 74 75 72 6e 56 61 6c 75 65 22 3a 22 |{"returnValue":"|
+|00000020| e4 bd a0 e5 a5 bd 2c 20 e5 bc a0 e4 b8 89 22 2c |......, ......",|
+|00000030| 22 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 |"sequenceId":0,"|
+|00000040| 6d 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d    |messageType":0} |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:55:34 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xee70e439, L:/127.0.0.1:63568 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 10:56:15 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 - R:/127.0.0.1:63568] READ COMPLETE
+2024-04-03 10:56:15 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 - R:/127.0.0.1:63568] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:56:15 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 ! R:/127.0.0.1:63568] INACTIVE
+2024-04-03 10:56:15 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x5e79a1cd, L:/127.0.0.1:9999 ! R:/127.0.0.1:63568] UNREGISTERED
+2024-04-03 10:56:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x390645ea] REGISTERED
+2024-04-03 10:56:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x390645ea] CONNECT: localhost/127.0.0.1:9999
+2024-04-03 10:56:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x390645ea, L:/127.0.0.1:61239 - R:localhost/127.0.0.1:9999] ACTIVE
+2024-04-03 10:56:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 - R:/127.0.0.1:61239] REGISTERED
+2024-04-03 10:56:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 - R:/127.0.0.1:61239] ACTIVE
+2024-04-03 10:56:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x390645ea, L:/127.0.0.1:61239 - R:localhost/127.0.0.1:9999] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:56:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x390645ea, L:/127.0.0.1:61239 - R:localhost/127.0.0.1:9999] FLUSH
+2024-04-03 10:56:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 - R:/127.0.0.1:61239] READ: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d2 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6e 2e 69 74 63 61 73 74 2e 73 65 72 76 |:"cn.itcast.serv|
+|00000030| 65 72 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f |er.service.Hello|
+|00000040| 53 65 72 76 69 63 65 22 2c 22 6d 65 74 68 6f 64 |Service","method|
+|00000050| 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c 6f 22 |Name":"sayHello"|
+|00000060| 2c 22 72 65 74 75 72 6e 54 79 70 65 22 3a 22 6a |,"returnType":"j|
+|00000070| 61 76 61 2e 6c 61 6e 67 2e 53 74 72 69 6e 67 22 |ava.lang.String"|
+|00000080| 2c 22 70 61 72 61 6d 65 74 65 72 54 79 70 65 73 |,"parameterTypes|
+|00000090| 22 3a 5b 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 74 |":["java.lang.St|
+|000000a0| 72 69 6e 67 22 5d 2c 22 70 61 72 61 6d 65 74 65 |ring"],"paramete|
+|000000b0| 72 56 61 6c 75 65 22 3a 5b 22 e5 bc a0 e4 b8 89 |rValue":["......|
+|000000c0| 22 5d 2c 22 73 65 71 75 65 6e 63 65 49 64 22 3a |"],"sequenceId":|
+|000000d0| 31 2c 22 6d 65 73 73 61 67 65 54 79 70 65 22 3a |1,"messageType":|
+|000000e0| 30 7d                                           |0}              |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:56:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 - R:/127.0.0.1:61239] WRITE: 79B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 00 3f |......f........?|
+|00000010| 7b 22 72 65 74 75 72 6e 56 61 6c 75 65 22 3a 22 |{"returnValue":"|
+|00000020| e4 bd a0 e5 a5 bd 2c 20 e5 bc a0 e4 b8 89 22 2c |......, ......",|
+|00000030| 22 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 |"sequenceId":0,"|
+|00000040| 6d 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d    |messageType":0} |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:56:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 - R:/127.0.0.1:61239] FLUSH
+2024-04-03 10:56:27 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 - R:/127.0.0.1:61239] READ COMPLETE
+2024-04-03 10:56:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x390645ea, L:/127.0.0.1:61239 - R:localhost/127.0.0.1:9999] READ: 79B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 00 ff 00 00 00 3f |......f........?|
+|00000010| 7b 22 72 65 74 75 72 6e 56 61 6c 75 65 22 3a 22 |{"returnValue":"|
+|00000020| e4 bd a0 e5 a5 bd 2c 20 e5 bc a0 e4 b8 89 22 2c |......, ......",|
+|00000030| 22 73 65 71 75 65 6e 63 65 49 64 22 3a 30 2c 22 |"sequenceId":0,"|
+|00000040| 6d 65 73 73 61 67 65 54 79 70 65 22 3a 30 7d    |messageType":0} |
++--------+-------------------------------------------------+----------------+
+2024-04-03 10:56:27 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x390645ea, L:/127.0.0.1:61239 - R:localhost/127.0.0.1:9999] READ COMPLETE
+2024-04-03 15:25:00 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 - R:/127.0.0.1:61239] READ COMPLETE
+2024-04-03 15:25:00 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 - R:/127.0.0.1:61239] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 15:25:00 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 ! R:/127.0.0.1:61239] INACTIVE
+2024-04-03 15:25:00 [nioEventLoopGroup-3-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xa7506ef3, L:/127.0.0.1:9999 ! R:/127.0.0.1:61239] UNREGISTERED

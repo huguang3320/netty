@@ -64,7 +64,9 @@ public interface Serializer {
         @Override
         public Class<?> deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
             try {
+                // 将json数据转成字符串类型
                 String str = json.getAsString();
+                // 根据类的全路径获取对应的类
                 return Class.forName(str);
             } catch (ClassNotFoundException e) {
                 throw new JsonParseException(e);
